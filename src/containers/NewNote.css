@@ -1,0 +1,16 @@
+.NewNote form {
+    padding-bottom: 15px;
+  }
+  
+  .NewNote form textareaTitle {
+    height: 50px;
+    font-size: 24px;
+  }
+  .NewNote form textareaName {
+    height: 50px;
+    font-size: 24px;
+  }
+  .NewNote form textareaContent {
+    height: 300px;
+    font-size: 24px;
+  }
