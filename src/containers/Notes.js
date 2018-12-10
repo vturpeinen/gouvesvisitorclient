@@ -215,6 +215,7 @@ export default class Notes extends Component {
                   </a>
                 </FormControl.Static>
               </FormGroup>}
+              
             {/* <FormGroup controlId="file">
               {!this.state.note.attachment &&
                 <ControlLabel>Attachment</ControlLabel>}
