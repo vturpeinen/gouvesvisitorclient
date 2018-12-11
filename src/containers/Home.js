@@ -3,6 +3,7 @@ import "./Home.css";
 import { API } from "aws-amplify";
 import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+//import note from "./Notes";
 
 export default class Home extends Component {
  constructor(props) {
@@ -33,28 +34,18 @@ export default class Home extends Component {
  }
 
  renderNotesList(Content) {
-   return [{}].concat(Content).map(
-     (note, i) =>
-       i !== 0
-         ? <LinkContainer
+   return [{}].concat(Content).map((note, i) =>{
+        if (Object.keys(note).length === 0) return
+        return (
+        <LinkContainer
              key={i}
              to={`/Content/${note.typeid}`}
            >
-             <ListGroupItem header={note.content.trim().split("\n")[0]}>
-               {"Created: " + new Date(note.createdAt).toLocaleString()}
+             <ListGroupItem float="left" header={note.name.trim().split("\n")[0]}>
+             <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + note.attachment} alt="" />
              </ListGroupItem>
-           </LinkContainer>
-         : <LinkContainer
-             key="new"
-             to="/Content/new"
-           >
-             <ListGroupItem>
-               {/* <h4>
-                 <b>{"\uFF0B"}</b> Create a new note
-               </h4> */}
-             </ListGroupItem>
-           </LinkContainer>
-   );
+        </LinkContainer>
+   )});
  }
 
  renderLander() {

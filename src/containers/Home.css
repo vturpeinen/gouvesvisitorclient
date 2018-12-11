@@ -12,9 +12,23 @@
     font-weight: 600;
   }
   .Home.ListGroupItem{
-    width: 600px;
+    float: left;
+    width: 50%;
+  }
+  .Home .Animal {
+    width: 15%;
+    height: 15%;
+  }
 
+  .Home .list-group {
+    width: 90%;
+    display:inline-block
+  }
 
+  .Home .list-group-item {
+    width: 50%;
+    float: left;
+    min-width: 100px;
   }
   
   .Home .lander p {

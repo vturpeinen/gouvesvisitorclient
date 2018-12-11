@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { API, Storage } from "aws-amplify";
-import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import LoaderButton from "../components/LoaderButton";
+//import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+//import LoaderButton from "../components/LoaderButton";
 import config from "../config";
 import { s3Upload } from "../libs/awsLib";
 import "./Notes.css";
@@ -151,7 +151,7 @@ export default class Notes extends Component {
       <p>{this.state.size}</p>
       <p>{this.state.color}</p>
       <p>{this.state.content}</p>
-      <img src={this.state.attachmentURL} alt="new"/>
+      <img src={this.state.attachmentURL} />
 
         {/* {this.state.note &&
           <form onSubmit={this.handleSubmit}>
