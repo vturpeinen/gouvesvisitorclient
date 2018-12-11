@@ -4,7 +4,7 @@ import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import LoaderButton from "../components/LoaderButton";
 import config from "../config";
 import { s3Upload } from "../libs/awsLib";
-import "./NewNote.css";
+import "./Notes.css";
 
 // import "./Notes.css";
 
@@ -144,7 +144,16 @@ export default class Notes extends Component {
     console.log("notes.render", this.state);
     return (
       <div className="NewNote">
-        {this.state.note &&
+      <p>{this.state.title}</p>
+      <p>{this.state.name}</p>
+      <p>{this.state.age}</p>
+      <p>{this.state.gender}</p>
+      <p>{this.state.size}</p>
+      <p>{this.state.color}</p>
+      <p>{this.state.content}</p>
+      <img src={this.state.attachmentURL} alt="new"/>
+
+        {/* {this.state.note &&
           <form onSubmit={this.handleSubmit}>
           <FormGroup controlId="title">
         <p>Species</p>
@@ -200,47 +209,19 @@ export default class Notes extends Component {
               onChange={this.handleChange}
               value={this.state.content}
               componentClass="textarea"
-            />
-          </FormGroup>   
+            /> */}
+          {/* </FormGroup>   
             {this.state.note.attachment &&
               <FormGroup>
                 <ControlLabel>Picture on link below</ControlLabel>
                 <FormControl.Static>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={this.state.attachmentURL}
-                  >
-                    {this.formatFilename(this.state.note.attachment)}
-                  </a>
+                <img src={this.state.attachmentURL} alt="new"
+     />
                 </FormControl.Static>
               </FormGroup>}
-              
-            {/* <FormGroup controlId="file">
-              {!this.state.note.attachment &&
-                <ControlLabel>Attachment</ControlLabel>}
-              <FormControl onChange={this.handleFileChange} type="file" />
-            </FormGroup> */}
-            {/* <LoaderButton
-              block
-              bsStyle="primary"
-              bsSize="large"
-              disabled={!this.validateForm()}
-              type="submit"
-              isLoading={this.state.isLoading}
-              text="Save"
-              loadingText="Saving…"
-            />
-            <LoaderButton
-              block
-              bsStyle="danger"
-              bsSize="large"
-              isLoading={this.state.isDeleting}
-              onClick={this.handleDelete}
-              text="Delete"
-              loadingText="Deleting…"
-            /> */}
-          </form>}
+
+           
+          </form>} */}
       </div>
     );
   }
