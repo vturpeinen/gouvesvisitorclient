@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import EaryDog from './images/dog17.jpg';
-import MrManolis from './images/mrmanolis.jpg';
-import DobbyEar from './images/dog27.jpg';
+import EaryDog from './Images/dog17.jpg';
+import MrManolis from './Images/mrmanolis.jpg';
+import DobbyEar from './Images/dog27.jpg';
 import './AboutUs.css'
 
 

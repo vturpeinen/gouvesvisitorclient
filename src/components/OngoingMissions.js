@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Styles/Ongoing.css'
-import StarryDog from './images/dog6.jpg';
-import PitifulDog from './images/dog37.jpg';
+import StarryDog from './Images/dog6.jpg';
+import PitifulDog from './Images/dog37.jpg';
 /* import SadDog from './images/koira.png'; */
 
 

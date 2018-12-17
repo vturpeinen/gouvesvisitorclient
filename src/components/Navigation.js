@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Navigation.css';
-import Gouveslogo from '../components/images/gouves-logo.svg';
+import Gouveslogo from '../components/Images/gouves-logo.svg';
 import {Navbar} from 'react-bootstrap';
 import Media from "react-media";
 //import Hamburger from '../components/Images/hamburger.svg';

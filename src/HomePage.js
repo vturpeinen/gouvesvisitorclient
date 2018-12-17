@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './HomePage.css';
-import Doggie from './components/images/koira1.jpg';
+import Doggie from './components/Images/koira1.jpg';
 import Navigation from './components/Navigation';
-import Piggie from './components/images/pig.svg';
+import Piggie from './components/Images/pig.svg';
 /* import Kitten from './components/Images/cat.svg'; */
-import Progress from './components/images/progressbarmock.jpg';
-import Bowldoggie from './components/images/dog19.jpg';     
+import Progress from './components/Images/progressbarmock.jpg';
+import Bowldoggie from './components/Images/dog19.jpg';     
 import Footer from './Footer';
 
 export default class HomePage extends Component {
