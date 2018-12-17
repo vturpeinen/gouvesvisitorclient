@@ -1,0 +1,47 @@
+.Donations {
+    padding-top: 200px;
+  }
+
+.Back {
+    background-color: #ACEAEA;
+}
+
+p {
+    margin: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button_box {
+    width: 466px;
+    /*border: 5px solid gray;*/
+    margin-left: 30%;
+
+}
+
+.button {
+
+
+    background-color: #64CAD8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius:5px;
+
+
+    background-color: #ebebeb;
+    color: black;
+    border: 2px solid #ebebeb;
+    box-shadow: 2px 2px 2px #d6d6d6;
+
+}
+
+.button:hover {
+    background-color: #64CAD8;
+    color: white;
+}

@@ -1,10 +1,18 @@
 {
-  "name": "gouvescommercial",
+  "name": "gouvesvisitorclient",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-amplify": "^1.1.10",
+    "google-maps-react": "^2.0.2",
     "react": "^16.6.3",
+    "react-async-script-loader": "^0.3.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
+    "react-file-reader": "^1.1.4",
+    "react-media": "^1.8.0",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {

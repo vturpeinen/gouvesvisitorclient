@@ -1,0 +1,28 @@
+.Search {
+    background-color: #64CAD8;
+    margin-top: 10%;
+    text-align: center;
+    border: 5px solid #64CAD8;
+    height: 100px;
+}
+
+.Background {
+    height: 1000px;
+    background-color: #ebebeb;
+    border: 5px solid #ebebeb;
+}
+select {
+    font-size: 20px;
+    font-family: "Segoe UI";
+    margin-top: 2%;
+
+}
+
+input {
+    font-size: 20px;
+}
+
+input {
+
+
+}
