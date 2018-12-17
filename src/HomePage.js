@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './HomePage.css';
-import Doggie from './components/Images/koira1.jpg';
+import Doggie from './components/images/koira1.jpg';
 import Navigation from './components/Navigation';
-import Piggie from './components/Images/pig.svg';
+import Piggie from './components/images/pig.svg';
 /* import Kitten from './components/Images/cat.svg'; */
-import Progress from './components/Images/progressbarmock.jpg';
-import Bowldoggie from './components/Images/dog19.jpg'     
+import Progress from './components/images/progressbarmock.jpg';
+import Bowldoggie from './components/images/dog19.jpg';     
+import Footer from './Footer';
 
 export default class HomePage extends Component {
     render() {
@@ -95,14 +96,9 @@ export default class HomePage extends Component {
                     </div>
                 </section>
     
-                <section>
-                <div className="footer">
-                    <p>Contact Us: Tel 123-456-7890 , Fax 123-456-7890</p>
-                    <p>email: <a href="email:gouvesshelter@gmail.com">
-                    gouvesshelter@gmail.com</a></p>
+                
                 </div>
-                </section>
-                </div>
+                <Footer/>
             </div>
             );
         }

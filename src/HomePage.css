@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: rgb(119, 119, 119);
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -93,7 +93,6 @@ body, html {
 	font-size: 18px;
 	width: 450px;
 	height: 200px;
-	background: rgba(172, 234, 234, 0.6);
 	float: left;
 	display: block;
 	padding-left: 10px;
@@ -156,17 +155,7 @@ body, html {
 	height:400px;
 	background-color: #ebebeb;
 }
-.footer {
-	position: relative;
-	left: 0;
-    bottom: 0;
-    right: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #46b8da;
-	color: white;
-	text-align: left;
-}
+
 
 html body div#root div.App.container-fluid {
 	margin: 0;

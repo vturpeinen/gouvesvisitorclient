@@ -121,6 +121,7 @@ object-fit: cover;
 		padding: 8px 0px;
 		border-radius: 0;
 		margin: 9px 20px 0 20px;
+	
 		
 	}
 	#menu.navbar-default .navbar-nav > li > a:after {
@@ -170,3 +171,20 @@ object-fit: cover;
 	.fa-search {
 		margin-top:20px; 
 	}
+	/* @media (min-width: 768px)
+	.navbar-toggle {
+    display: none;
+	} */
+
+	/* @media (min-width: 500px)
+	.navbar-toggle {
+		display: none;
+	} */
+
+	/* @media only screen and (min-width: 500px) {
+		.footer
+		.navbar {
+		   display: none;
+		}
+	  }  */
+	 

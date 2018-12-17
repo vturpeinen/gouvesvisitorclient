@@ -1,0 +1,29 @@
+.testi {
+	width: 100%;
+}
+.navbar-brand {
+	margin-top: 6%;
+	width: 200px; 
+}
+	.navbar-logo {
+	object-fit: cover;  
+}
+#navigation .border-free button {
+    background: rgba(255, 0, 119, 0.884); 
+	border: none;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+
+body {
+	background: #ebebeb;
+}
+	
+
+
+/* }
+#menu.navbar-default .navbar-nav > li > a:hover:after {
+	width: 100%;
+	
+} */

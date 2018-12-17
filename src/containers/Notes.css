@@ -1,7 +1,29 @@
-.Notes {
-    padding-top: 200px !important;
+  .Notes {
+    padding-top: 200px;
   }
-  .NewNote {
-    padding-top: 200px !important;
-
+  .cardwrapper {
+    background: #ebebeb;/* rgba(255, 254, 254, 0.6); */
   }
+  .profile-pic {
+    float: left;
+    object-fit: contain;
+    height: 120% !important; 
+    width: 90% !important;
+    margin-left: 40%;
+    margin-top: 7%;
+    margin-top: 10%;
+  }
+  .profileData-box {
+      float: right;
+      object-fit: contain;
+      height: 100% !important; 
+      width: 100% !important;
+      margin-top: 20%;
+      padding-top: 5%;
+      padding-left: 50%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 140%;
+      background-color: /* #ACEAEA; */ #BEE9EA;
+      color: black;
+    }
+  

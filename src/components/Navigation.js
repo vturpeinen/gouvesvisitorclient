@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Navigation.css';
-import Gouveslogo from '../components/Images/gouves-logo.svg';
+import Gouveslogo from '../components/images/gouves-logo.svg';
 import {Navbar} from 'react-bootstrap';
 import Media from "react-media";
 //import Hamburger from '../components/Images/hamburger.svg';
@@ -18,8 +18,8 @@ class Navigation extends Component {
                         </a>
                         </Navbar.Brand>
                         <Navbar.Toggle/>
-                         <a href="#main-menu" class="menu-toggle">
-                           <span class="fa fa-bars"></span>
+                         <a href="#main-menu" className="menu-toggle">
+                           <span className="fa fa-bars"></span>
                         </a>
                         {/*  <img src={Hamburger} className="hamburger.svg" alt="hamburger"/>
                          <nav id="main-menu" class="main-menu">
@@ -27,20 +27,20 @@ class Navigation extends Component {
                            <span class="fa fa-close"></span>
                           </a>
                         </nav> */}
-                        <a href="#main-menu-toggle" class="backdrop" hidden></a>
+                        <a href="#main-menu-toggle" className="backdrop" hidden></a>
                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><NavLink to="/" class="page-scroll">Home</NavLink></li>
-                            <li><NavLink to="/components/AboutUs" class="page-scroll">About Us</NavLink></li>
-                            <li><NavLink to="/components/OngoingMissions" class="page-scroll">Ongoing Missions</NavLink></li>
-                            <li><NavLink to="/Search" class="page-scroll">Adoptions</NavLink></li>
-                            <li><NavLink to="/Donations" class="page-scroll">How you can help?</NavLink></li>
-                            <li><NavLink to="/ContactUs" class="page-scroll">Contact Us</NavLink></li>
+                            <li><NavLink to="/" className="page-scroll">Home</NavLink></li>
+                            <li><NavLink to="/components/AboutUs" className="page-scroll">About Us</NavLink></li>
+                            <li><NavLink to="/components/OngoingMissions" className="page-scroll">Ongoing Missions</NavLink></li>
+                            <li><NavLink to="/Search" className="page-scroll">Adoptions</NavLink></li>
+                            <li><NavLink to="/Donations" className="page-scroll">How you can help?</NavLink></li>
+                            <li><NavLink to="/ContactUs" className="page-scroll">Contact Us</NavLink></li>
                         </ul>   
                         </div>
                         <div>
-                         <Media query={{ maxWidth: 599 }}>
-                         </Media>
+                         {/* <Media query={{ maxWidth: 599 }}>
+                         </Media> */}
                          </div>
                       </div>
                      </nav>

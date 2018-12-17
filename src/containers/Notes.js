@@ -112,117 +112,42 @@ export default class Notes extends Component {
       this.setState({ isLoading: false });
     }
   }
- 
-
-// deleteNote() {
-//     return API.del("Content", `/Content/${this.props.match.params.id}`);
-//   }
-  
-//   handleDelete = async event => {
-//     event.preventDefault();
-  
-//     const confirmed = window.confirm(
-//       "Are you sure you want to delete this?"
-//     );
-  
-//     if (!confirmed) {
-//       return;
-//     }
-  
-//     this.setState({ isDeleting: true });
-  
-//     try {
-//       await this.deleteNote();
-//       this.props.history.push("/");
-//     } catch (e) {
-//       alert(e);
-//       this.setState({ isDeleting: false });
-//     }
-//   }
   
   render() {
     console.log("notes.render", this.state);
     return (
-      <div className="NewNote">
-      <p>{this.state.title}</p>
-      <p>{this.state.name}</p>
-      <p>{this.state.age}</p>
-      <p>{this.state.gender}</p>
-      <p>{this.state.size}</p>
-      <p>{this.state.color}</p>
-      <p>{this.state.content}</p>
-      <img src={this.state.attachmentURL} />
-
-        {/* {this.state.note &&
-          <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="title">
-        <p>Species</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.title}
-              componentClass="textarea"
-            />
-          </FormGroup>
-          <FormGroup controlId="name">
-          <p>Name</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.name}
-              componentClass="textarea"
-            />
-          </FormGroup>      
-          <FormGroup controlId="age">
-          <p>Age</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.age}
-              componentClass="textarea"
-            />
-          </FormGroup>
-          <FormGroup controlId="gender">
-          <p>Gender (male/female)</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.gender}
-              componentClass="textarea"
-            />
-          </FormGroup>
-          <FormGroup controlId="size">
-          <p>Size (s, m, l)</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.size}
-              componentClass="textarea"
-            />
-          </FormGroup>
-          <FormGroup controlId="color">
-          <p>Color</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.color}
-              componentClass="textarea"
-            />
-          </FormGroup>
-          <FormGroup controlId="content">
-          <p>Introduction</p>
-            <FormControl
-              onChange={this.handleChange}
-              value={this.state.content}
-              componentClass="textarea"
-            /> */}
-          {/* </FormGroup>   
-            {this.state.note.attachment &&
-              <FormGroup>
-                <ControlLabel>Picture on link below</ControlLabel>
-                <FormControl.Static>
-                <img src={this.state.attachmentURL} alt="new"
-     />
-                </FormControl.Static>
-              </FormGroup>}
-
-           
-          </form>} */}
+      <div className="wrapper cardwrapper">
+        <div className="row cardrow"> 
+          <div className="col-xs-12 col-sm-4">
+            <img className="profile-pic" alt="dog without home" src={this.state.attachmentURL}/>
+          </div>
+      <div class="col-xs-12 col-sm-8">
+          <div className="profileData-box">
+            <h2><b>{this.state.name}</b></h2>
+              <p><b>{this.state.age}</b></p>
+              <p><b>{this.state.gender}</b></p>
+              <p><b>{this.state.size}</b></p>
+              <p><b>{this.state.color}</b></p>
+          </div>
       </div>
+      </div>
+      </div>
+/*         <div className="wrapper cardwrapper">
+          <div className="row cardrow">
+            <div className="col-xs-12 col-sm-4">
+                <div className="mission-values-box">
+                    <div className="AnimalContent">
+                      <p><b>{this.state.content}</b></p>
+                    </div>
+                      </div>
+                      
+                          </div>
+
+                          </div> */
+    
     );
   }
 }
+      
+
+      

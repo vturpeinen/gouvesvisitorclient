@@ -1,5 +1,5 @@
 
-import Routes from "./Routes";
+import Routes from "./routes";
 
 import React, { Component } from "react";
 import { Auth } from "aws-amplify";
@@ -41,9 +41,11 @@ class App extends Component {
     };
   
     return (
+      <div>
+      <Navigation/> 
       !this.state.isAuthenticating &&
       <div className="App container-fluid">
-        <Navigation/> 
+        
         {/* <Navbar fluid collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
@@ -68,6 +70,7 @@ class App extends Component {
           </Navbar.Collapse>
         </Navbar> */}
         <Routes childProps={childProps} />
+      </div>
       </div>
     );
   }

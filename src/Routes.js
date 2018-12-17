@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 //import NotFound from "./containers/NotFound";
 
@@ -12,7 +12,7 @@ import NewNote from "./containers/NewNote";
 import AboutUs from "./components/AboutUs";
 import Donations from "./Donations";
 import ContactUs from "./containers/ContactUs";
-
+import OngoingMissions from "./components/OngoingMissions"; //tämä
 
 export default ({ childProps }) =>
   <Switch>
@@ -21,8 +21,10 @@ export default ({ childProps }) =>
     <AppliedRoute path="/Search" exact component={Home}/>
     <AppliedRoute path="/Content/:id" exact component={Notes} props={childProps} />
     <AppliedRoute path="/Content/new" exact component={NewNote} props={childProps} />
+    <AppliedRoute path="/components/OngoingMissions" component={OngoingMissions} />
     <AppliedRoute path="/components/AboutUs" component={AboutUs} />
     <AppliedRoute path="/Donations" component={Donations} />
     <AppliedRoute path="/ContactUs" component={ContactUs} />
-    
+     {/* tämä */}
+
   </Switch>;

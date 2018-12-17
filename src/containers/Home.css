@@ -1,9 +1,11 @@
 .Home {
-  padding-top: 200px;
+  padding-top: 100px;
+  padding-left: 10%;
 }
 
 .Home .lander {
     padding: 80px 0;
+    padding-right: 80px 0;
     text-align: center;
   }
   
@@ -16,13 +18,24 @@
     width: 50%;
   }
   .Home .Animal {
-    width: 15%;
-    height: 15%;
+    position: center !important;
+    width: 40%;
+    height: 40%;
+    max-width: 200px !important;
+    min-width: 200px !important;
+    max-height: 300px !important;
+    min-height: 300px !important;
+    /* align-content: center !important;
+    align-items: center !important;
+    align-self: center !important;
+    box-align: center !important; */
+    
   }
 
   .Home .list-group {
-    width: 90%;
+    width: 99%;
     display:inline-block
+    
   }
 
   .Home .list-group-item {
@@ -30,6 +43,36 @@
     float: left;
     min-width: 100px;
   }
+
+  .Home .ItemInfo {
+    text-align: initial;
+
+  }
+
+  .Home .ListOneItem {
+    float: left;
+    width: 30%;
+    height: 30%;
+    min-height: 300px !important;
+    border: 5mm;
+    border-color: green;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.3s !important;
+    padding: 20px 76px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  /*   justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important; */
+    color: #46b8da;
+
+  }
+
+
+
+/*   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.3s !important;
+    size: 10% !important; */
   
   .Home .lander p {
     color: #999;
@@ -44,4 +87,24 @@
   }
   .Home .notes p {
     color: #666;
+  }
+
+  .card {
+    
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.3s !important;
+    size: 10% !important;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .ListOneItem:hover {
+    box-shadow: 0 8px 16px 0 #46b8da !important;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 10% 35% !important;
+    color: black;
+
   }
