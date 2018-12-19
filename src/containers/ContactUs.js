@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-
 import Map2 from "../Map2";
 import './ContactUsStyle.css';
+import Footer from '../Footer';
 
 
 class ContactUs extends Component {
@@ -11,20 +11,13 @@ class ContactUs extends Component {
                sisalto: '',
                tagit: '',
            }
-
            render() {
            return (
-
-
                <div>
                <div className="Page">
-
-
-
                   <div className="Form">
-<form>
+                  <form>
                    <h1>Contact us</h1>
-
                        <label>
                            <input type="text"
                                   placeholder="Name*"
@@ -33,7 +26,6 @@ class ContactUs extends Component {
                                   onChange={e=> this.setState({otsikko: e.target.value})}/>
                        </label>
                        <br/>
-
                        <label>
                            <input type="text"
                                   placeholder="Email*"
@@ -43,7 +35,6 @@ class ContactUs extends Component {
                            />
                        </label>
                        <br/>
-
                        <label>
                            <input type="text"
                                   placeholder="Subject"
@@ -53,7 +44,6 @@ class ContactUs extends Component {
                        />
                        </label>
                        <br/><br/>
-
                        <label>
                            <textarea
                                placeholder="Message"
@@ -65,41 +55,26 @@ class ContactUs extends Component {
                        </textarea>
                        </label>
                        <br/><br/>
-
-
-<div className="Button_box">
+                        <div className="Button_box">
                        <input className="Button" type="submit" value="Send" />
-</div>
+                        </div>
                       </form>
-
                   </div>
-
                       <div className="Add">
-
                           <p>Address <br/>
-
                               Ex American Military Base
                               70015 Goúrnes, Iraklion, Greece </p>
-
                           <p>Phone <br/>
                            +306979347428 </p>
-
                           <p>E-mail<br/>
                               gouvesshelter@gmail.com </p>
-
                       </div>
-
                    <div className="Map">
                        <Map2/>
                    </div>
-
-
-
                   </div>
+                  <Footer/>
                </div>
-
-
-
            );
 
        }

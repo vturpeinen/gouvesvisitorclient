@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Navigation.css';
-import Gouveslogo from '../components/images/gouves-logo.svg';
+import Gouveslogo from '../components/Images/gouves-logo.svg';
 import {Navbar} from 'react-bootstrap';
-import Media from "react-media";
-//import Hamburger from '../components/Images/hamburger.svg';
-/* import { from } from 'zen-observable';
- */
+
 class Navigation extends Component {
     render () {
         return (
@@ -21,26 +18,20 @@ class Navigation extends Component {
                          <a href="#main-menu" className="menu-toggle">
                            <span className="fa fa-bars"></span>
                         </a>
-                        {/*  <img src={Hamburger} className="hamburger.svg" alt="hamburger"/>
-                         <nav id="main-menu" class="main-menu">
-                          <a href="#main-menu-toggle" class="menu-close">
-                           <span class="fa fa-close"></span>
-                          </a>
-                        </nav> */}
+                     
                         <a href="#main-menu-toggle" className="backdrop" hidden></a>
                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
                             <li><NavLink to="/" className="page-scroll">Home</NavLink></li>
                             <li><NavLink to="/components/AboutUs" className="page-scroll">About Us</NavLink></li>
                             <li><NavLink to="/components/OngoingMissions" className="page-scroll">Ongoing Missions</NavLink></li>
-                            <li><NavLink to="/Search" className="page-scroll">Adoptions</NavLink></li>
-                            <li><NavLink to="/Donations" className="page-scroll">How you can help?</NavLink></li>
+                            <li><NavLink to="/Adopt" className="page-scroll">Adoptions</NavLink></li>
+                            <li><NavLink to="/Help" className="page-scroll">How you can help?</NavLink></li>
                             <li><NavLink to="/ContactUs" className="page-scroll">Contact Us</NavLink></li>
                         </ul>   
                         </div>
                         <div>
-                         {/* <Media query={{ maxWidth: 599 }}>
-                         </Media> */}
+                       
                          </div>
                       </div>
                      </nav>

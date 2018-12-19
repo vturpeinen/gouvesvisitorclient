@@ -1,10 +1,11 @@
 
-import Routes from "./routes";
+import Routes from "./Routes";
 
 import React, { Component } from "react";
 import { Auth } from "aws-amplify";
 import { withRouter } from "react-router-dom";
 import Navigation from "./components/Navigation";
+
 
 
 class App extends Component {
@@ -43,6 +44,7 @@ class App extends Component {
     return (
       <div>
       <Navigation/> 
+     
       !this.state.isAuthenticating &&
       <div className="App container-fluid">
         

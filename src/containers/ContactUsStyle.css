@@ -34,7 +34,7 @@
  }
  .Button_box {
     width: 100%;
-    /border: 5px solid gray;
+    border: 5px solid gray;
     text-align: center;
     margin-top: -1%;
  }

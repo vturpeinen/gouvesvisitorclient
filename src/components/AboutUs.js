@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import EaryDog from './images/dog17.jpg';
-import MrManolis from './images/mrmanolis.jpg';
-import DobbyEar from './images/dog27.jpg';
+import EaryDog from './Images/dog17.jpg';
+import MrManolis from './Images/mrmanolis.jpg';
+import DobbyEar from './Images/dog27.jpg';
 import './AboutUs.css'
+import Footer from '../Footer';
 
 
 class AboutUs extends Component {
@@ -115,7 +116,9 @@ class AboutUs extends Component {
                         </div>  
                     </div>
                 </div> */}
+                 <Footer/>
             </div>
+            
             
         );
     }
@@ -123,23 +126,6 @@ class AboutUs extends Component {
 export default AboutUs;
 
 
-                            
-   
-
-
-
-
-
-
- {/* <div className="footer">
-<p>Contact Us: Tel 123-456-7890 , Fax 123-456-7890</p>
-<p>email: <a href="email:gouvesshelter@gmail.com">
-gouvesshelter@gmail.com</a></p>
-</div>
-        
-    
-</div>   */}
- 
 
 
 

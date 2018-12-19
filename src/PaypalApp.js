@@ -1,8 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PaypalButton from "./PaypalButton";
-
-
-
 
 const CLIENT = {
     sandbox: 'AdxJQDwV_PrFrhstc2U3k6QpuyVva2A-x4TXkd8_GmG3ESMilRd-WBUtg2b4SOYfxtqlfwLpypeUYNht',
