@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { API } from "aws-amplify";
-import { PageHeader, ListGroup } from "react-bootstrap";
+import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-//import {MenuItem, SplitButton} from 'react';
+import {MenuItem, SplitButton} from 'react';
 import Footer from '../Footer';
 
 //import note from "./Notes";
@@ -233,6 +233,10 @@ export default class Females extends Component {
    return (
      <div className="notes">
        <PageHeader>Our Animals to Adopt</PageHeader>
+       <div className="buttons" margin-left="50%">
+       <button className="button"><a href="/Males">Males</a></button>
+       <button className="button"><a href="/Females">Females</a></button>
+       </div>
        <ListGroup>
          {!this.state.isLoading && this.renderNotesList(this.state.notes)}
        </ListGroup>
@@ -246,7 +250,10 @@ export default class Females extends Component {
    return (
      <div className="Home">
         <h3 align="center">Females</h3>
-        <button><a href="/Males">Males</a></button>
+        <div className="buttons" margin-left="50%">
+       <button className="buttonSearch" href="/Males"><a href="/Males">Males</a></button>
+       <button className="buttonSearch" href="/Adopt"><a href="/Adopt">All</a></button>
+       </div>
         <br></br>
         {/* {this.renderNotes()} */}
         {/* {this.malesList(this.state.notes)}  */}

@@ -1,29 +1,44 @@
-  .Notes {
-    padding-top: 200px;
-  }
-  .cardwrapper {
-    background: #ebebeb;/* rgba(255, 254, 254, 0.6); */
-  }
-  .profile-pic {
-    float: left;
-    object-fit: contain;
-    height: 120% !important; 
-    width: 90% !important;
-    margin-left: 40%;
-    margin-top: 7%;
-    margin-top: 10%;
-  }
-  .profileData-box {
-      float: right;
-      object-fit: contain;
-      height: 100% !important; 
-      width: 100% !important;
-      margin-top: 20%;
-      padding-top: 5%;
-      padding-left: 50%;
-      font-family: 'Roboto', sans-serif;
-      font-size: 140%;
-      background-color: /* #ACEAEA; */ #BEE9EA;
-      color: black;
-    }
-  
+
+
+#NotesCss .ProfilePhotoPart{
+  width: 60%;
+  height: 300px;
+  padding: 25px;
+}
+
+
+#NotesCss .ProfileCardFirstPart{
+  margin-top: 70px;
+  width: 60%;
+  height: 400px;
+  border: 25px solid gray;
+  padding: 25px;
+  margin-left: 20%;
+}
+
+#NotesCss .DogImage {
+  position: left !important;
+  width: 50%;
+  height: 50%;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  max-height: 300px !important;
+  min-height: 300px !important;
+  margin-top: -10%;
+  margin-left: -10%;
+  border: 5px solid black;
+}
+#NotesCss .ContentArea {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%
+}
+
+#NotesCss .IntroductionPart {
+  float: right;
+  margin-top: -65%;
+  margin-right: 50px;
+
+
+
+}

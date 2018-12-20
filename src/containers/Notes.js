@@ -5,6 +5,10 @@ import { API, Storage } from "aws-amplify";
 import config from "../config";
 import { s3Upload } from "../libs/awsLib";
 import "./Notes.css";
+import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
+import Footer from "../Footer"
+
+
 
 // import "./Notes.css";
 
@@ -116,38 +120,49 @@ export default class Notes extends Component {
   render() {
     console.log("notes.render", this.state);
     return (
-      <div className="wrapper cardwrapper">
-        <div className="row cardrow"> 
-          <div className="col-xs-12 col-sm-4">
-            <img className="profile-pic" alt="dog without home" src={this.state.attachmentURL}/>
-          </div>
-      <div class="col-xs-12 col-sm-8">
-          <div className="profileData-box">
-            <h2><b>{this.state.name}</b></h2>
-              <p><b>{this.state.age}</b></p>
-              <p><b>{this.state.gender}</b></p>
-              <p><b>{this.state.size}</b></p>
-              <p><b>{this.state.color}</b></p>
-          </div>
-      </div>
-      </div>
-      </div>
-/*         <div className="wrapper cardwrapper">
-          <div className="row cardrow">
-            <div className="col-xs-12 col-sm-4">
-                <div className="mission-values-box">
-                    <div className="AnimalContent">
-                      <p><b>{this.state.content}</b></p>
-                    </div>
-                      </div>
-                      
-                          </div>
+      <div className="FirstLayer" id="NotesCss">
 
-                          </div> */
+        <div class="ProfileCardFirstPart">
+        <div class="ProfilePhotoPart">
+        <img className="DogImage" alt="dog without home" src={this.state.attachmentURL}/>
+        </div>
+        <div className="IntroductionPart">
+        <h1 className="Name"><b>{this.state.name}</b></h1>
+        <h3>{this.state.age}</h3>
+        <h3>{this.state.gender}</h3>
+        <h3>{this.state.size}</h3>
+        <h3>{this.state.color}</h3>
+        </div>
+        </div>
+        <div className="ContentArea">
+        <br/>
+          <p><b>{this.state.content}</b></p>
+        </div>
+        <Footer/>
+
+      </div>
+
+
+
+/* 
+      <div className="row missionrow"id="MissionsAndValues"> 
+      <div className="col-xs-12 col-sm-4">
+      <img className="profile-pic" alt="dog without home" src={this.state.attachmentURL}/>
+      </div>
+      <div class="col-xs-12 col-sm-8">
+          <div className="mission-values-box" >
+           <h2><b>{this.state.name}</b></h2>
+            <p><b>{this.state.age}</b></p>
+            <p><b>{this.state.gender}</b></p>
+            <p><b>{this.state.size}</b></p>
+            <p><b>{this.state.color}</b></p>
+            <br></br>   
+            </div>
+      </div>     
+  </div> */
     
     );
   }
 }
-      
-
+    
       
