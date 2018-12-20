@@ -26,23 +26,6 @@ class Help extends Component {
                         </div>
                     </div>     
                 </div>
-
-                <div className="row donationrow"> 
-                    <div className="col-xs-12 col-sm-4">
-                        <img className="super-sad-dog" src={SadDog} alt="Sad dog"/>
-                    </div>
-                    <div class="col-xs-12 col-sm-8">
-                        <div className="donate-box">
-                         <h2>Here are some of the shelters monthly costs: </h2>
-                         <br/><p> &#9737; Over 300 homeless and abandoned animals each year find a safe place and needed care with us - <br/>can you help us keep going?
-                         We do not get any help from the government, or from big organizations, <br/>but depend solely on the donations of individuals.
-                         Any donation, big or small, is highly appreciated and there are so many ways you can help, <br/>we are sure you will find one suited for your situation.
-                         We take care of more than 200 dogs and 200 cats, which is a huge task for a group of less than 10 volunteers.</p>
-                            
-                        </div>
-                    </div>     
-                </div>
-
                 <div className="wrapper volunteerswrapper">
                     <div className="row volunteersrow"> 
                         <div className="col-xs-12 col-sm-4">
