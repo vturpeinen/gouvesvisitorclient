@@ -7,6 +7,9 @@ import { s3Upload } from "../libs/awsLib";
 import "./Notes.css";
 import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import Footer from "../Footer"
+import Carousel from "./Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 
 
@@ -138,6 +141,10 @@ export default class Notes extends Component {
         <br/>
           <p><b>{this.state.content}</b></p>
         </div>
+        <div className="CarouselArea">
+    <Carousel />
+  </div>
+  <br/>
         <Footer/>
 
       </div>
