@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { API } from "aws-amplify";
-import { PageHeader, ListGroup} from "react-bootstrap";
+import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-//import {MenuItem, SplitButton} from 'react';
+import {MenuItem, SplitButton} from 'react';
 import Footer from '../Footer';
 //import note from "./Notes";
 
@@ -247,11 +247,17 @@ export default class Males extends Component {
    return (
      <div className="Home">
      <h3 align="center">Males</h3>
-     <button><a href="/Females">Females</a></button>
+     <div className="buttons" margin-left="50%">
+       <button className="buttonSearch"><a href="/Females">Females</a></button>
+       <button className="buttonSearch"><a href="/Adopt">All</a></button>
+       </div>
+       <div>
         {/* {this.renderNotes()} */}
         {this.malesList(this.state.notes)} 
         {/* {this.femalesList(this.state.notes)}  */}
-        <Footer/>
+        <br/>
+        <br/>
+     </div>
      </div>
    );
  }

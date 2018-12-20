@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { API } from "aws-amplify";
-import { PageHeader, ListGroup } from "react-bootstrap";
+import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-//import {MenuItem, SplitButton} from 'react';
-//import note from "./Notes";
+import {MenuItem, SplitButton} from 'react';
 import Footer from '../Footer';
 
 export default class Animals extends Component {
@@ -108,9 +107,10 @@ export default class Animals extends Component {
    return (
      <div className="notes">
        <PageHeader>Our Animals to Adopt</PageHeader>
-       <button><a href="/Males">Males</a></button>
-       <button><a href="/Females">Females</a></button>
-
+       <div className="butSe" margin-left="50%">
+       <button className="buttonSearch"><a href="/Males">Males</a></button>
+       <button className="buttonSearch"><a href="/Females">Females</a></button>
+       </div>
        <ListGroup>
          {!this.state.isLoading && this.renderNotesList(this.state.notes)}
        </ListGroup>
