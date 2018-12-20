@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Map2 from "../Map2";
 import './ContactUsStyle.css';
 import Footer from '../Footer';
-import ReactContactForm from 'react-mail-form';
+
 
 
 class ContactUs extends Component {
@@ -21,7 +21,7 @@ class ContactUs extends Component {
                    <br></br>
                    <br></br>
                    <div>
-                   <ReactContactForm to="vturpeinen@hotmail.com" />
+                   
 
 
                {/* <div className="Page">
