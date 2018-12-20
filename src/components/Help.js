@@ -3,6 +3,8 @@ import './Styles/Help.css'
 import SadDog from './Images/koira.png';
 import LogoNega from './Images/gouves-logo-nega.svg';
 import Footer from '../Footer';
+import SnifferDog from './Images/dog25.jpg';
+
 
 
 class Help extends Component {
@@ -44,7 +46,7 @@ class Help extends Component {
                 <div className="wrapper volunteerswrapper">
                     <div className="row volunteersrow"> 
                         <div className="col-xs-12 col-sm-4">
-                            {/* <img className="mr-manolis" src={MrManolis} alt="Mr Manolis"/> */} ELÄIN SAATANA
+                            <img className="sniffer-dog" src={SnifferDog} alt="Dog and flower"/>
                         </div>
            
                         <div class="col-xs-12 col-sm-8">
