@@ -38,7 +38,10 @@
   float: right;
   margin-top: -65%;
   margin-right: 50px;
+}
 
-
+#NotesCss .CarouselArea {
+  margin-left: 20%;
+  margin-right: 20%;
 
 }
