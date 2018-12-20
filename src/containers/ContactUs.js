@@ -2,19 +2,29 @@ import React, {Component} from 'react';
 import Map2 from "../Map2";
 import './ContactUsStyle.css';
 import Footer from '../Footer';
+import ReactContactForm from 'react-mail-form';
 
 
 class ContactUs extends Component {
 
-           state = {
+           /* state = {
                otsikko: '',
                sisalto: '',
                tagit: '',
-           }
+           } */
            render() {
            return (
                <div>
-               <div className="Page">
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <div>
+                   <ReactContactForm to="vturpeinen@hotmail.com" />
+
+
+               {/* <div className="Page">
                   <div className="Form">
                   <form>
                    <h1>Contact us</h1>
@@ -71,7 +81,7 @@ class ContactUs extends Component {
                       </div>
                    <div className="Map">
                        <Map2/>
-                   </div>
+                   </div> */}
                   </div>
                   <Footer/>
                </div>
