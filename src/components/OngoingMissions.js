@@ -3,6 +3,7 @@ import './Styles/Ongoing.css'
 import StarryDog from './Images/dog6.jpg';
 import PitifulDog from './Images/dog37.jpg';
 /* import SadDog from './images/koira.png'; */
+import Footer from '../Footer';
 
 
 class OngoingMissions extends Component {
@@ -79,9 +80,13 @@ class OngoingMissions extends Component {
                                     </p>
                                 </div>
                             </div>
+                            
                              
                         </div>
+                        <Footer/>
+                        
                     </div> 
+                    
                 
         );
     }

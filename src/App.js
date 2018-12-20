@@ -7,6 +7,7 @@ import { withRouter } from "react-router-dom";
 import Navigation from "./components/Navigation";
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -43,6 +44,7 @@ class App extends Component {
     return (
       <div>
       <Navigation/> 
+     
       !this.state.isAuthenticating &&
       <div className="App container-fluid">
         

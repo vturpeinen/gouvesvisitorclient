@@ -1,0 +1,62 @@
+.donationwrapper {
+	background:/*  rgba(255, 254, 254, 0.6); */ hotpink;
+}
+/* .col-xs-12 {
+	background-color: yellow;
+} */
+
+.super-sad-dog {
+	float: left;
+    object-fit: contain;
+    height: 120% !important; 
+    width: 90% !important;
+	margin-top: 12%;
+	padding-left: 8%;
+	/* overflow: hidden; */
+}
+.donate-box {
+    background-color: orangered;
+	float: left;
+    object-fit: contain;
+    height: 100% !important; 
+    width: 100% !important;
+	margin-top: 9%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140%;
+	background: rgba(255, 254, 254, 0.6);
+    color: black;
+    text-align: justify;
+}
+
+.volunteerswrapper {
+    background-color: green;
+}
+.volunteers-box {
+    background-color: orangered;
+    float: left;
+    object-fit: contain;
+    height: 100% !important; 
+    width: 100% !important;
+	margin-top: 9%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140%;
+	background: rgba(255, 254, 254, 0.6);
+    color: black;
+    text-align: justify;
+
+}
+.addresswrapper {
+    background-color: blue;
+}
+.address-box { 
+    object-fit: contain;
+    height: 100% !important; 
+    width: 100% !important;
+	margin-top: 9%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120%;
+	background: rgba(255, 254, 254, 0.6);
+    color: black;
+    text-align: justify;
+    text-align: center;
+}

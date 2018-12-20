@@ -25,6 +25,27 @@ body, html {
 	float: left;
 	object-fit: contain;
 }
+
+.fb-box img {
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: 70%;
+}
+.fb-box {
+	margin-left: 70%;
+
+}
+.ig-box img {
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: 70%;
+}
+.ig-box {
+	margin-left: 70%;
+}
+
 .welcome {
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
@@ -66,6 +87,13 @@ body, html {
 	text-align: center;
 	color: #000000;
 }
+
+.iframe {
+	border: 20px solid #1E90FF !important;
+}
+.button {
+	float: right;
+}
 .dog-bowl-area {
 	width: 600px;
 	height: 400px;
@@ -82,7 +110,7 @@ body, html {
 	padding-top: 50px; 
 	padding-right: 70px;
 	display: inline-block;
-	background-color: #aceaea;
+	background-color: rgb(172, 234, 234);
 	text-align: center;
 	color: #000000; 
 }
@@ -100,6 +128,7 @@ body, html {
 	margin-top: 120px;
 	text-align: center;
 	color: #000000;
+	background: rgba(172, 234, 234, 0.6);
 	
 }
 /* .progress-bar {
