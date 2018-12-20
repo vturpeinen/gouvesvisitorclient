@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Styles/Help.css'
 import SadDog from './Images/koira.png';
 import LogoNega from './Images/gouves-logo-nega.svg';
-import Footer from '../Footer';
 import SnifferDog from './Images/dog25.jpg';
 
 
@@ -26,6 +25,9 @@ class Help extends Component {
                         </div>
                     </div>     
                 </div>
+
+               
+
                 <div className="wrapper volunteerswrapper">
                     <div className="row volunteersrow"> 
                         <div className="col-xs-12 col-sm-4">
@@ -68,7 +70,6 @@ class Help extends Component {
                         <img className="logo-nega" src={LogoNega} alt="Gouves Logo"/>
                     </div>
                 </div>
-                <Footer/>
             </div>
             
         );
@@ -76,3 +77,4 @@ class Help extends Component {
 }
 
 export default Help;
+

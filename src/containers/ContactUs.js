@@ -4,17 +4,27 @@ import './ContactUsStyle.css';
 import Footer from '../Footer';
 
 
+
 class ContactUs extends Component {
 
-           state = {
+           /* state = {
                otsikko: '',
                sisalto: '',
                tagit: '',
-           }
+           } */
            render() {
            return (
                <div>
-               <div className="Page">
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <div>
+                   
+
+
+               {/* <div className="Page">
                   <div className="Form">
                   <form>
                    <h1>Contact us</h1>
@@ -71,7 +81,7 @@ class ContactUs extends Component {
                       </div>
                    <div className="Map">
                        <Map2/>
-                   </div>
+                   </div> */}
                   </div>
                   <Footer/>
                </div>
