@@ -6,7 +6,7 @@ class Search extends Component {
         return (
 
 
-            <div className="Background">
+            <div className="Background" id="SearchCSS">
 
             <div className="Search">
 

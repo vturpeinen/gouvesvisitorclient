@@ -1,16 +1,16 @@
-.NewNote form {
+#NewNoteCSS form {
     padding-bottom: 15px;
   }
   
-  .NewNote form textareaTitle {
+  #NewNoteCSS  form textareaTitle {
     height: 50px;
     font-size: 24px;
   }
-  .NewNote form textareaName {
+  #NewNoteCSS  form textareaName {
     height: 50px;
     font-size: 24px;
   }
-  .NewNote form textareaContent {
+  #NewNoteCSS  form textareaContent {
     height: 300px;
     font-size: 24px;
   }

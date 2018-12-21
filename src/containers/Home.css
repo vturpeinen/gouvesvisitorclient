@@ -1,23 +1,23 @@
-.Home {
+#AnimalsCSS body {
   padding-top: 100px;
   padding-left: 10%;
 }
 
-.Home .lander {
+#AnimalsCSS .lander {
     padding: 80px 0;
     padding-right: 80px 0;
     text-align: center;
   }
   
-  .Home .lander h1 {
+  #AnimalsCSS .lander h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
   }
-  .Home.ListGroupItem{
+  #AnimalsCSS .ListGroupItem{
     float: left;
     width: 50%;
   }
-  .Home .Animal {
+  #AnimalsCSS .Animal {
     position: center !important;
     width: 40%;
     height: 40%;
@@ -25,31 +25,27 @@
     min-width: 200px !important;
     max-height: 300px !important;
     min-height: 300px !important;
-    /* align-content: center !important;
-    align-items: center !important;
-    align-self: center !important;
-    box-align: center !important; */
     
   }
 
-  .Home .list-group {
+  #AnimalsCSS .list-group {
     width: 99%;
     display:inline-block
     
   }
 
-  .Home .list-group-item {
+  #AnimalsCSS .list-group-item {
     width: 50%;
     float: left;
     min-width: 100px;
   }
 
-  .Home .ItemInfo {
+  #AnimalsCSS .ItemInfo {
     text-align: initial;
 
   }
 
-  .Home .ListOneItem {
+  #AnimalsCSS .ListOneItem {
     float: left;
     width: 30%;
     height: 30%;
@@ -61,23 +57,14 @@
     padding: 20px 76px !important;
     display: flex !important;
     flex-direction: column !important;
-  /*   justify-content: center !important;
-    align-content: center !important;
-    align-items: center !important; */
     color: #46b8da;
 
   }
 
-
-
-/*   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
-    transition: 0.3s !important;
-    size: 10% !important; */
-  
-  .Home .lander p {
+  #AnimalsCSS .lander p {
     color: #999;
   }
-  .Home .notes h4 {
+  #AnimalsCSS .notes h4 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     overflow: hidden;
@@ -85,32 +72,29 @@
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-  .Home .notes p {
+  #AnimalsCSS .notes p {
     color: #666;
   }
 
-  .card {
+  #AnimalsCSS .card {
     
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
     transition: 0.3s !important;
     size: 10% !important;
   }
   
-  /* On mouse-over, add a deeper shadow */
-  .ListOneItem:hover {
+  #AnimalsCSS .ListOneItem:hover {
     box-shadow: 0 8px 16px 0 #46b8da !important;
   }
   
-  /* Add some padding inside the card container */
-  .container {
+  #AnimalsCSS .container {
     padding: 10% 35% !important;
     color: black;
 
   }
 
-  .buttonSearch {
-    background-color: white; /* Green */
+  #AnimalsCSS .buttonSearch {
+    background-color: white; 
     border: 2px solid #46b8da;
     padding: 5px 5px;
     text-align: center;

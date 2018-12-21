@@ -81,7 +81,7 @@ export default class NewNote extends Component {
 
   render() {
     return (
-      <div className="NewNote">
+      <div className="NewNote" id="NewNoteCSS">
         <form onSubmit={this.handleSubmit}>
         <FormGroup controlId="title">
         <p>Species</p>

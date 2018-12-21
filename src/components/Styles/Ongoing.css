@@ -1,14 +1,14 @@
-.ongoingwrapper {
+#OngoingCSS .ongoingwrapper {
 	background: rgba(255, 254, 254, 0.6);
 }
-.starry-dog {
+#OngoingCSS .starry-dog {
 	float: left;
     object-fit: contain;
     height: 135% !important; 
     width: 100% !important;
 	margin-top: 7%;
 }
-.ongoing-box {
+#OngoingCSS .ongoing-box {
 	float: left;
     object-fit: contain;
     height: 100% !important; 
@@ -20,16 +20,16 @@
     color: black;
     text-align: justify;
 }
-.shelterwrapper {
+#OngoingCSS .shelterwrapper {
 	background-color: #ebebeb;
 }
-.pitiful-dog {
+#OngoingCSS .pitiful-dog {
     float: left;
     object-fit: contain;
     height: 100% !important; 
     width: 100% !important;
 }
-.shelter-box {
+#OngoingCSS .shelter-box {
 	float: left;
     object-fit: contain;
     height: 100% !important; 
@@ -41,31 +41,23 @@
     color: black;
     text-align: justify;
 }
-.neuterwrapper{
+#OngoingCSS .neuterwrapper{
 	background-color: #BEE9EA;
 }
-.cost-box {
+#OngoingCSS #OngoingCSS .cost-box {
 	float: left;
     object-fit: contain;
     height: 100% !important; 
     width: 70% !important;
     margin-top: 7%;
-    /* margin-left: 3%; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 140%;
 	background-color: fuchsia;
     color: black;
     text-align: justify;
 }
-/* .sad-dog {
-    float: left;
-    object-fit: contain;
-    height: 150% !important; 
-    width: 130% !important;
-    margin-top: 12%;
-   
-} */
-.neuter-box {
+
+#OngoingCSS .neuter-box {
 	float: left;
     object-fit: contain;
     height: 100% !important; 

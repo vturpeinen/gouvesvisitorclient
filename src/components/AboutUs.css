@@ -1,3 +1,8 @@
+#FastLinks .FastL {
+	float: left;
+	color: red;
+}
+
 .missionwrapper {
 	background: rgba(255, 254, 254, 0.6);
 }

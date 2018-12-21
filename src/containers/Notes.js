@@ -148,25 +148,6 @@ export default class Notes extends Component {
         <Footer/>
 
       </div>
-
-
-
-/* 
-      <div className="row missionrow"id="MissionsAndValues"> 
-      <div className="col-xs-12 col-sm-4">
-      <img className="profile-pic" alt="dog without home" src={this.state.attachmentURL}/>
-      </div>
-      <div class="col-xs-12 col-sm-8">
-          <div className="mission-values-box" >
-           <h2><b>{this.state.name}</b></h2>
-            <p><b>{this.state.age}</b></p>
-            <p><b>{this.state.gender}</b></p>
-            <p><b>{this.state.size}</b></p>
-            <p><b>{this.state.color}</b></p>
-            <br></br>   
-            </div>
-      </div>     
-  </div> */
     
     );
   }

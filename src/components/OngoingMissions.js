@@ -9,7 +9,7 @@ import Footer from '../Footer';
 class OngoingMissions extends Component {
     render() {
         return (
-            <div>
+            <div id="OngoingCSS">
                 <div className="wrapper ongoingwrapper">
                 <br/>
             <div className="linksToText">

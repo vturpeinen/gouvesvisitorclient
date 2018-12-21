@@ -248,7 +248,7 @@ export default class Females extends Component {
 
  render() {
    return (
-     <div className="Home">
+     <div className="Home" id="AnimalsCSS">
         <h3 align="center">Females</h3>
         <div className="buttons" margin-left="50%">
        <button className="buttonSearch" href="/Males"><a href="/Males">Males</a></button>

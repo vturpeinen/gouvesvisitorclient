@@ -1,4 +1,4 @@
-.Search {
+#SearchCSS .Search {
     background-color: #ebebeb;
     margin-top: 10%;
     border: 1px solid #cbcbcb;
@@ -8,12 +8,12 @@
 
 }
 
-.Background {
+#SearchCSS .Background {
     background-color: #ebebeb ;
     border: 1px solid #cbcbcb;
 }
 
-.Valikko {
+#SearchCSS .Valikko {
 
     /*border: 5px solid gray;*/
 
@@ -21,7 +21,7 @@
 }
 
 
-select {
+#SearchCSS .select {
     font-size: 20px;
     margin-top: 3%;
     height: 33%;
@@ -30,14 +30,14 @@ select {
 }
 
 
-.button_search_box {
+#SearchCSS .button_search_box {
     /*width: 130px;*/
     margin-left: 1%;
     /*border: 5px solid gray;*/
 
 }
 
-.button_search {
+#SearchCSS .button_search {
     background-color: #64CAD8;
     border: none;
     color: white;
@@ -55,7 +55,7 @@ select {
 
 }
 
-.button_search:hover {
+#SearchCSS .button_search:hover {
     background-color: #5dbcc9;
     border: 2px solid #5dbcc9;
     color: white;

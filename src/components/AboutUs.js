@@ -11,8 +11,8 @@ class AboutUs extends Component {
         return (
             <div className="wrapper missionwrapper">
             <br/>
-            <div className="linksToText">
-            <ul>
+            <div className="linksToText" >
+            <ul className="FastL" id="FastLinks">
             <li><a href="#MissionsAndValues" align="center">Missions And Values</a></li>
             <li><a href="#Manolis">Mr. Manolis</a></li>
             <li><a href="#Team">The Team</a></li>

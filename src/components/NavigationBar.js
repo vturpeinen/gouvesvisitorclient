@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {ButtonToolbar} from 'react-bootstrap';
-import './Styles/NavigationBar.css';
 import {Navbar} from 'react-bootstrap';
 import Gouveslogo from '../components/images/gouves-logo.svg';
 import '../components/Styles/NavigationBar.css';
@@ -10,7 +9,7 @@ import '../components/Styles/NavigationBar.css';
 class NavigationBar extends Component {
     render () {
         return (
-            <nav id="menu" class="navbar navbar-static-top">
+            <nav id="menuCSS" class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
                     <Navbar.Brand>

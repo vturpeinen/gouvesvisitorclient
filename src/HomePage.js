@@ -14,7 +14,7 @@ import insta from './components/Images/instagram.svg';
 export default class HomePage extends Component {
     render() {
             return (
-                <div>
+                <div id="HomePageCSS"> 
                 <Navigation/>
                 <div className="container-fluid"> {/* <!-- tällä saa containerista responsiivisen --> */}
                  <div className="row">
