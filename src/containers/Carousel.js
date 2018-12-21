@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => (
   <Carousel autoPlay>
-    <div>
+    <div id="CarouselCSS">
       <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
       <p className="legend">Legend 1</p>
     </div>

@@ -122,7 +122,7 @@ export default class Animals extends Component {
 
  render() {
    return (
-     <div className="Home">
+     <div className="Home" id="AnimalsCSS">
         {this.renderNotes()}
         {/* {this.malesList(this.state.notes)}  */}
         {/* {this.femalesList(this.state.notes)}  */}

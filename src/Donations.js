@@ -7,7 +7,7 @@ import Logo from './Css/Images/gouves-logo-nega.svg';
 class Donations extends Component {
     render() {
         return (
-            <div className="container-fluid"> {/* <!-- tällä saa containerista responsiivisen --> */}
+            <div className="container-fluid" id="DonationsCSS"> {/* <!-- tällä saa containerista responsiivisen --> */}
            <section>
             <div className="Back">
             </div>

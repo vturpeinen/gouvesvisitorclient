@@ -10,7 +10,7 @@ export default ({
   disabled = false,
   ...props
 }) =>
-  <Button
+  <Button id="ButtonCSS"
     className={`LoaderButton ${className}`}
     disabled={disabled || isLoading}
     {...props}

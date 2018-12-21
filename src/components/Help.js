@@ -9,7 +9,7 @@ import SnifferDog from './Images/dog25.jpg';
 class Help extends Component {
     render() {
         return (
-            <div className="wrapper donationwrapper">
+            <div className="wrapper donationwrapper" id="HelpCSS">
                 <div className="row donationrow"> 
                     <div className="col-xs-12 col-sm-4">
                         <img className="super-sad-dog" src={SadDog} alt="Sad dog"/>

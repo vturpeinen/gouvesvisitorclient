@@ -1,18 +1,16 @@
-.donationwrapper {
+#HelpCSS .donationwrapper {
 	background: rgba(255, 254, 254, 0.6);
 }
-/* .col-xs-12 {
-	background-color: yellow;
-} */
 
-.super-sad-dog {
+
+#HelpCSS .super-sad-dog {
 	float: left;
     object-fit: contain;
     height: 165% !important; 
     width: 125% !important;
 	margin-top: 7%;
 }
-.donate-box {
+#HelpCSS .donate-box {
     float: left;
     object-fit: contain;
     height: 100% !important; 
@@ -26,17 +24,17 @@
     padding-right: 5%;
 
 }
-.sniffer-dog {
+#HelpCSS .sniffer-dog {
     float: left;
     object-fit: contain;
     height: 100% !important; 
     width: 100% !important;
 }
 
-.volunteerswrapper {
+#HelpCSS .volunteerswrapper {
     background-color: #ebebeb;
 }
-.volunteers-box {
+#HelpCSS .volunteers-box {
     float: left;
     object-fit: contain;
     height: 100% !important; 
@@ -49,11 +47,11 @@
     text-align: justify;
 
 }
-.addresswrapper {
+#HelpCSS .addresswrapper {
     background-color: #BEE9EA;
     
 }
-.address-box { 
+#HelpCSS .address-box { 
     float: right;
     object-fit: contain;
     height: 100% !important; 

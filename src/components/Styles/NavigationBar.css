@@ -1,14 +1,14 @@
-.testi {
+#menuCSS .testi {
 	width: 100%;
 }
-.navbar-brand {
+#menuCSS .navbar-brand {
 	margin-top: 6%;
 	width: 200px; 
 }
 	.navbar-logo {
 	object-fit: cover;  
 }
-#navigation .border-free button {
+#menuCSS .border-free button {
     background: rgba(255, 0, 119, 0.884); 
 	border: none;
 	margin-top: 4%;
@@ -16,7 +16,7 @@
 }
 
 
-body {
+#menuCSS body {
 	background: #ebebeb;
 }
 	

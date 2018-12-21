@@ -7,10 +7,10 @@ import {Navbar} from 'react-bootstrap';
 class Navigation extends Component {
     render () {
         return (
-            <nav inverse collapseOnSelect id="menu" className="navbar navbar-default navbar-fixed-top">
+            <nav inverse collapseOnSelect id="NavigationCSS" className="navbar navbar-default navbar-fixed-top">
                 <div>
                 <Navbar.Brand>
-                <a href="#">
+                <a href="/">
                         <img src={Gouveslogo} className="navbar-logo" alt="logo"/>
                         </a>
                         </Navbar.Brand>
