@@ -1,0 +1,25 @@
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+	height: 56px;
+    border: none;
+    cursor: crosshair; /* ei toimi */
+    /* cursor: pointer; */
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__line {
+    width: 30px;
+    height: 2px;
+    background: #608dfd;
+
+}

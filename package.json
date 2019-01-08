@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "aws-amplify": "^1.1.10",
+    "axios": "^0.18.0",
     "google-maps-react": "^2.0.2",
     "iframe-react": "^1.0.1",
     "react": "^16.7.0",

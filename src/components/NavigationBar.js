@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import {ButtonToolbar} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
 import Gouveslogo from '../components/images/gouves-logo.svg';
 import '../components/Styles/NavigationBar.css';
-/* import Grid from 'react-css-grid' */
-/* import MediaQuery from 'react-responsive'; */
+
 
 class NavigationBar extends Component {
     render () {
@@ -51,4 +50,4 @@ class NavigationBar extends Component {
         );
     }
 }
-export default NavigationBar;
+export default NavigationBar; */

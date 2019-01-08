@@ -1,52 +1,296 @@
-#HomePageCSS body, html {
-	font-family: 'Open Sans', sans-serif;
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
-	color: rgb(119, 119, 119);
-	font-weight: 400;
-	width: 100% !important;
-	height: 100% !important;
+
+.welcome {
+	position: relative;
 }
-/* tästä ylöspäin on navbariin liittyvät muotoilut */
-#HomePageCSS .container-fluid {
+h1#Header {
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-bottom: 3px;
+}
+p#Header-p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+	font-size: 27px;
+	margin: 0 0 10px;
+}
+
+@media (max-width: 500px) {
+	.welcome {
+    height: 252px;
+    background-color: rgb(255, 255, 255);
+	}
+}
+
+.dog {
+	width: 85%;
+}
+.welcome-box {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	right: 0;
+	top: 0;
+	width: 30%;
+	margin-top: 160px;
+	margin-right: 310px;
+}
+
+@media (max-width: 993px) {
+.welcome-box {
+    background: rgba(255, 254, 254, 0.75);
+    width: 373px;
+    height: 147px;
+    text-align: center;
+    margin-right: 0px;
+    top: 4px;
+    margin-top: 101px;
+    padding-left: 0px;
+    padding-right: 9px;
+	}
+}
+.we {
+	background-color: #ebebeb;
+	padding-bottom: 110px;
+    padding-top: 74px;
+}
+
+p#we-p {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+	margin-top: 73px;
+	margin-bottom: 52px;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* .we-are-box {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	height: 600px;
+	width: 80%;
+	background: rgba(235, 235, 235, 0.6);
+	float: left;
+	
+	padding-top: 40px;
+	text-align: justify;
+	color: #000000;
+} */
+h1#Header-2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: black;
+}
+
+.puppy {
 	width: 100%;
-	margin-right: 0%;
-	padding-left: 0%;
-	padding-right: 0%;
-	margin-right: 0%;
-    margin-left: 0%;
+	padding-top: 25px;
+	margin-left: 15px;
+	margin-top: 60px;
 }
-#HomePageCSS .cuteDogArea {
-	padding-top: 70px;
+@media (max-width: 640px) {
+	.puppy {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+}
+
+.quote-box {
+	margin-left: 50px;
+}
+h2#quote-header {
+    font-family: 'Slabo 27px', serif;
+    font-size: 41px;
+    text-align: center;
+    color: black;
+}
+h3#quote-p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+@media (min-width: 724px) {
+	.quote-box {
+		margin-top: 100px;
+	}
+}
+
+.battle-pig {
+    background-color: #BEE9EA;
+    padding-top: 81px;
+    padding-bottom: 120px;
+}
+.piggy {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#youtube-iframe {
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+}
+.social-media {
+	background-color: rgba(255, 255, 255);
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+.float-right {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 600px) {
+	.col-xs-12.col-md-8.so-me-buttons 
+	{
+	padding-top: 100px;
+	
+	}
+}
+.social-media-favicon img {
+    max-width: 80px;
+}
+
+
+
+
+
+
+
+
+/*
 }
 #HomePageCSS .dog1 {
-	height: 620px; 
-	width: 900px;
+	width: inherit;
+	
+}
+
+#HomePageCSS .welcome-box {
+	position: absolute;
+	left: 50%;
+    object-fit: contain;
+	width: 350px;
+	height: 120px;
+    display: inline-block;
+	margin-top: 9%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140%;
+	background: rgba(255, 254, 254, 0.6);
+    color: black;
+    text-align: justify;
+}
+
+#HomePageCSS .wearewrapper {
+	background-color: #ebebeb;
+}
+
+#HomePageCSS .weare-box {
 	float: left;
-	object-fit: contain;
+    object-fit: contain;
+    height: 100%; 
+    width: 100%;
+    margin-top: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140%;
+	background-color: #ebebeb;
+    color: black;
+    text-align: justify;
 }
 
-#HomePageCSS .fb-box img {
-	height: 100px;
-	width: 100px;
-	display: block;
-	margin-left: 70%;
+#HomePageCSS .jarpuppy {
+	float: left;
+    object-fit: contain;
+    height: 100%; 
+    width: 100%;
 }
-#HomePageCSS .fb-box {
-	margin-left: 70%;
 
+#HomePageCSS .battlepigwrapper {
+	background-color: #BEE9EA;
 }
+
+#HomePageCSS .pig {
+	float: left;
+    object-fit: contain;
+    height: 100%; 
+    width: 100%;
+}
+
+#HomePageCSS .quote-box {
+	float: left;
+    object-fit: contain;
+	font-family: 'Roboto', sans-serif;
+	font-size: 140%;
+	background-color: #ebebeb;
+    color: black;
+    text-align: justify;
+}
+
+
 #HomePageCSS .ig-box img {
 	height: 100px;
 	width: 100px;
 	display: block;
 	margin-left: 70%;
 }
+
 #HomePageCSS .ig-box {
 	margin-left: 70%;
 }
 
-#HomePageCSS .welcome {
+#HomePageCSS .iframe {
+	border: 20px solid #1E90FF;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #HomePageCSS body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: rgb(119, 119, 119);
+	font-weight: 400; */
+/* 	width: 100% !important;
+	height: 100% !important; 
+}*/
+/* tästä ylöspäin on navbariin liittyvät muotoilut */
+/* #HomePageCSS .container-fluid {
+	width: 100%;
+	margin-right: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	margin-right: 0%;
+    margin-left: 0%;
+} */
+/* #HomePageCSS .cuteDogArea {
+	padding-top: 70px;
+} */
+/* #HomePageCSS .dog1 {
+	height: 620px; 
+	width: 900px;
+	float: left;
+	object-fit: contain;
+} */
+
+/* #HomePageCSS .welcome {
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
 	left: 50%;
@@ -61,8 +305,9 @@
 	color: #000000;
 	font-size: 130%;
 	text-align: center;
-}
-#HomePageCSS .who-we-are-and-puppy-area {
+} */
+
+/* #HomePageCSS .who-we-are-and-puppy-area {
 	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
     width: 100%;
@@ -71,8 +316,8 @@
 	background-color: #ebebeb;
 	text-align: center;
 	color: #000000;
-}
-#HomePageCSS .whoWeAre {
+} */
+/* #HomePageCSS .whoWeAre {
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
 	font-size: 18px;
@@ -86,23 +331,42 @@
 	margin-left: 20px;
 	text-align: center;
 	color: #000000;
-}
+} */
 
-#HomePageCSS .iframe {
+/* #HomePageCSS .fb-box img {				FB
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: 70%;
+} */
+/* #HomePageCSS .fb-box {
+	margin-left: 70%;
+} */
+/* #HomePageCSS .ig-box img {				IG
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: 70%;
+} */
+/* #HomePageCSS .ig-box {
+	margin-left: 70%;
+} */
+
+/* #HomePageCSS .iframe {
 	border: 20px solid #1E90FF !important;
-}
-#HomePageCSS .button {
+} */
+/* #HomePageCSS .button {
 	float: right;
-}
-#HomePageCSS .dog-bowl-area {
+} */
+/* #HomePageCSS .dog-bowl-area {
 	width: 600px;
 	height: 400px;
 	background-color: #ebebeb;
 	float: right;
 	padding-top: 50px; 
 	padding-right: 70px;
-}
-#HomePageCSS .battle-pig-area {
+} */
+/* #HomePageCSS .battle-pig-area {
 	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
     width: 100%;
@@ -113,9 +377,8 @@
 	background-color: rgb(172, 234, 234);
 	text-align: center;
 	color: #000000; 
-}
-#HomePageCSS .make-a-donation-area {
-	/* font-family: 'Dancing Script', cursive; */
+} */
+/* #HomePageCSS .make-a-donation-area {
 	font-family: 'Slabo 27px', serif;
 	position: absolute;
 	font-size: 18px;
@@ -130,30 +393,41 @@
 	color: #000000;
 	background: rgba(172, 234, 234, 0.6);
 	
-}
+} */
 
-#HomePageCSS .piggiebank-area {
+/* #HomePageCSS .piggiebank-area {
 	height: 350px;
 	width: 450px;
 	background-color: rgba(172, 234, 234, 0.6);
 	float: right; 
-}
-#HomePageCSS .Piggie {
+} */
+/* #HomePageCSS .Piggie {
 	height: 350px;
 	width: 450px;
 	float: right;
 	padding-top: 20px;
-}
+} */
 
 
-#HomePageCSS .placefornothing {
+/* #HomePageCSS .placefornothing {
 	font-size: 18px;
 	width: 100%;
 	height:400px;
 	background-color: #ebebeb;
-}
+} */
 
-
+/* 
 #HomePageCSS html body div#root div.App.container-fluid {
 	margin: 0;
-}
+} */
+
+
+
+/*
+COLORS: 
+lighter greyish blue-green #BEE9EA, 
+brighter turquose #64CAD8, 
+paler turquose #ACEAEA
+FONTS: Roboto (fits everywhere), Slabo (sopii johonkin pieneen yksityiskohtaan tai väliotsikkoon).
+Noto Sans otsikkoon & Noto Serif leipikseen. Mätsäävät fontit. 
+*/
