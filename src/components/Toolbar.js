@@ -1,6 +1,44 @@
-import React, {Component} from 'react';
+import React from 'react';
+import DrawerToggleButton from '../components/SideDrawer/DrawerToggleButton';
+import { Link } from 'react-router-dom';
+import './SideDrawer/DrawerToggleButton';
+import './Toolbar.css';
+
+const ToolBar = props => ( /* forward these props to DrawerToggleButton */
+    <header className="toolbar">
+        <nav className="toolbar__navigation">
+            <div className="toolbar__toggle-button">
+                <DrawerToggleButton click={props.drawerClickHandler} /> {/* drawerClickHandler = prop name used in app.js file  */}
+            </div>
+            <div className="toolbar__logo"><a href="/">Gouves Logo</a></div>
+            <div className="spacer"/>
+            <div className="toolbar_navigation-items">
+                <ul>
+                    <li><Link to="/components/AboutUs">About Us</Link></li>
+                    <li><Link to="/components/OngoingMissions">Ongoing Missions</Link></li>
+                    <li><Link to="/Adopt">Adoptions</Link></li>
+                    <li><Link to="/Help">How you can help?</Link></li>
+                    <li><Link to="/ContactUs">Contact Us</Link></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+)
+export default ToolBar;
+
+
+
+
+
+/* instructions https://www.youtube.com/watch?v=l6nmysZKHFU */
+
+
+
+
+
+/* import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
-import './Navigation.css';
+import './Toolbar.css';
 import Gouveslogo from '../components/Images/gouves-logo.svg';
 import {Navbar} from 'react-bootstrap';
 
@@ -45,45 +83,4 @@ export default Navigation;
 
 
 
-
-
-
-/* import React, { Component } from 'react';
-import {Switch, NavLink, Route} from 'react-router-dom';
-import Contact from './Contact';
-import Photos from './Photos';
-import FrontPage from './FrontPage';
-import '../Styles/App.css';
-
-class NavigationBlock extends Component {
-
-   render() {
-       return(
-           <div className="App">
-               <header className="App-header">
-                   <NavLink to="/" className="links">FrontPage</NavLink>
-                   <NavLink to="/Photos" className="links">Photos</NavLink>
-                   <NavLink to="/Contact" className="links">Contact</NavLink>
-               </header>
-               <Switch>
-                   <Route exact path="/" render={(props) => <FrontPage {...props}/>}/>
-                   <Route path="/Photos" render={(props) => <Photos {...props}/>}/>
-                   <Route path="/Contact" render={(props) => <Contact {...props}/>}/>
-               </Switch>
-
-           </div>
-       );
-   }
-}
-
-export default NavigationBlock; */
-
-
-
-
-
-
-
-
-/* muista! 
-npm install --save react-responsive-navbar */
+ */

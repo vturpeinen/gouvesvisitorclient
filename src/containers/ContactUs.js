@@ -1,32 +1,84 @@
 import React, {Component} from 'react';
 import Map2 from "../Map2";
-import './ContactUsStyle.css';
+import './ContactUs.css';
 import Footer from '../Footer';
+import axios from 'axios';
+
 
 
 
 class ContactUs extends Component {
+    handleSubmit(e){
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        axios({
+            method: "POST", 
+            url:"http://localhost:3002/send", 
+            data: {
+                name: name,   
+                email: email,  
+                message: message
+            }
+        }).then((response)=>{
+            if (response.data.msg === 'success'){
+                alert("Message Sent."); 
+                this.resetForm()
+            }else if(response.data.msg === 'fail'){
+                alert("Message failed to send.")
+            }
+        })
+    }
 
-           /* state = {
-               otsikko: '',
-               sisalto: '',
-               tagit: '',
-           } */
-           render() {
-           return (
-               <div id="ContactUsCSS">
-                   <br></br>
-                   <br></br>
-                   <br></br>
-                   <br></br>
-                   <br></br>
-                   <div>
-                  </div>
+    resetForm(){
+        document.getElementById('contact-form').reset();
+    }
+
+    render(){
+        return(
+            <div>
+               
+            <div className="col-sm-4 offset-sm-4">
+                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                    <div className="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" className="form-control" id="name" />
+                    </div>
+                    <div className="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                    </div>
+                    <div className="form-group">
+                        <label for="message">Message</label>
+                        <textarea className="form-control" input="true" rows="5" id="message"></textarea>
+                    </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </form>
+            </div>
+                  
+                      <div className="Add">
+                          <p>Address <br/>
+                              Ex American Military Base
+                              70015 Goúrnes, Iraklion, Greece </p>
+                          <p>Phone <br/>
+                           +306979347428 </p>
+                          <p>E-mail<br/>
+                              gouvesshelter@gmail.com </p>
+                      </div>
+
+                   <div className="Map">
+                       <Map2/>
+                   </div>
+
+
+                  <div>
                   <Footer/>
                </div>
-           );
-
-       }
-   }
-
+               </div>
+        )
+    }
+}
+        
+    
 export default ContactUs;

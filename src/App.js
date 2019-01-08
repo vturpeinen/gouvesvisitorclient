@@ -1,12 +1,11 @@
 
 import Routes from "./Routes";
-
 import React, { Component } from "react";
 import { Auth } from "aws-amplify";
 import { withRouter } from "react-router-dom";
-import Navigation from "./components/Navigation";
-
-
+import Toolbar from "./components/Toolbar";
+import SideDrawer from './components/SideDrawer/SideDrawer';
+import Backdrop from './components/Backdrop/Backdrop';
 
 class App extends Component {
   constructor(props) {
@@ -35,17 +34,44 @@ class App extends Component {
   userHasAuthenticated = authenticated => {
     this.setState({ isAuthenticated: authenticated });
   }
+
+    state = {
+      sideDrawerOpen: false
+  };
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => { /*passing a function to setState is a way to access a prevState(which is passed into the function by react).  And and the bad way: this.setState({sideDrawerOpen: !this.state.sideDrawerOpen}); */
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}; /* returning an object that updates the state */
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  };
+
   render() {
     const childProps = {
       isAuthenticated: this.state.isAuthenticated,
       userHasAuthenticated: this.userHasAuthenticated
     };
   
+    let sideDrawer;
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+      backdrop = <Backdrop click={this.backdropClickHandler} /> /* passing a click prop and pointing to a backdropClickHandler */
+    }
     return (
-      <div>
-      <Navigation/> 
      
-      !this.state.isAuthenticating &&
+     
+      /* !this.state.isAuthenticating && */
+      <div style={{height: '100%'}}>
+      <Toolbar drawerClickHandler={this.drawerToggleClickHandler} /> {/* https://www.youtube.com/watch?v=l6nmysZKHFU 36.35 not executing just passing a prop to a Toolbar which holds the button*/}
+      <SideDrawer show={this.state.sideDrawerOpen}/>
+      {sideDrawer}
+      {backdrop} 
+      <main style={{marginTop: '64px'}}></main>
+
       <div className="App container-fluid">
         
         {/* <Navbar fluid collapseOnSelect>

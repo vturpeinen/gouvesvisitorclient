@@ -1,5 +1,97 @@
+.toolbar {
+	position: fixed; /* ei nyt vittu auta !important pitämään sitä KAIKKIEN päällä  */
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgb(255, 255, 255);
+	height: 56px;
+}
+
+.toolbar__navigation {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: 0 1rem;
+}
+.toolbar__logo {
+	margin-left: 1.5rem;
+}
+
+.toolbar__logo a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 2rem;
+	color: #608dfd;
+}
+
+.spacer {
+	flex: 1;
+}
+
+.toolbar_navigation-items ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.toolbar_navigation-items li {
+	padding: 0 3.5rem;
+}
+
+.toolbar_navigation-items a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	cursor: crosshair;
+}
+.toolbar_navigation-items li a {
+	background: rgb(255, 255, 255);
+	display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.toolbar_navigation-items li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #608dfd;
+    transition: width .3s;
+}
+.toolbar_navigation-items li a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
 
 
+@media (max-width: 768px) {
+	.toolbar_navigation-items {
+		display: none;
+	}
+}
+
+@media (min-width: 769px) {
+	.toolbar__toggle.button {
+		display: none;
+	}
+}
+
+@media (min-width: 769px) {
+	.toolbar__toggle-button {
+		display: none;
+	}
+	.toolbar__logo {
+		margin-left: 0; /* tähän marginia joku 100? */
+	}
+}
+
+/* TÄHÄN SAATANA @media
+	niin, että mobiilissa logo siirtyisi navbarin viereen oikealle silloin, kun sidedrawer on auki 
+	TAI sidedrawer avautuisi vasta logon alapuolelta */
+/* 
 #NavigationCSS .navbar-brand {
 	margin-top: -35px;
 	width: 200px; 
@@ -84,4 +176,4 @@
 	#NavigationCSS .fa-search {
 		margin-top:20px; 
 	}
-	 
+	  */

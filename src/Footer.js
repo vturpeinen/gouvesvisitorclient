@@ -12,7 +12,7 @@ class Footer extends Component {
                     gouvesshelter@gmail.com</a></p>
                     </div>
                     </div>
-                    <div classname="footerwrapper" class="col-sm-6 col-sm-6" backgroud-color="yellow">
+                    <div className="footerwrapper col-sm-6 col-sm-6" backgroud-color="yellow">
                     <div className="paypal-box">
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
