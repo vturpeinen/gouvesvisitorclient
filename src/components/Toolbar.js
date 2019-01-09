@@ -3,6 +3,7 @@ import DrawerToggleButton from '../components/SideDrawer/DrawerToggleButton';
 import { Link } from 'react-router-dom';
 import './SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
+import logo  from '../components/Images/gouves-logo.svg';
 
 const ToolBar = props => ( /* forward these props to DrawerToggleButton */
     <header className="toolbar">
@@ -10,7 +11,9 @@ const ToolBar = props => ( /* forward these props to DrawerToggleButton */
             <div className="toolbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler} /> {/* drawerClickHandler = prop name used in app.js file  */}
             </div>
-            <div className="toolbar__logo"><a href="/">Gouves Logo</a></div>
+            <div className="toolbar__logo"><a href="/">
+            <img src={logo} style={{width:150, height: 57, marginTop: 1}} />
+            </a></div>
             <div className="spacer"/>
             <div className="toolbar_navigation-items">
                 <ul>

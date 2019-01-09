@@ -24,6 +24,13 @@
 	font-size: 2rem;
 	color: #608dfd;
 }
+.toolbar__logo {
+	display: flex;
+	align-items: center;
+  }
+  .toolbar__logo .img {
+	padding: 7px 14px;
+  }
 
 .spacer {
 	flex: 1;

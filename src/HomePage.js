@@ -52,9 +52,7 @@ export default class HomePage extends Component {
                         <div className="row social-media">
                             <div className="col-xs-12 col-md-4" >
                                 <div className="youtube-box"> 
-                                    <iframe
-                                        id="youtube-iframe" 
-            
+                                    <iframe id="youtube-iframe" /* valittaa, että pitäisi olla unique title property, mutta tässähän on?! */
                                         src="https://www.youtube.com/embed/YvhvCBGthE0"
                                         frameBorder="120" 
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
