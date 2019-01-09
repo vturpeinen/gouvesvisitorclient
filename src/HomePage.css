@@ -67,18 +67,7 @@ p#we-p {
     padding-right: 5px;
 }
 
-/* .we-are-box {
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	height: 600px;
-	width: 80%;
-	background: rgba(235, 235, 235, 0.6);
-	float: left;
-	
-	padding-top: 40px;
-	text-align: justify;
-	color: #000000;
-} */
+
 h1#Header-2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -130,6 +119,9 @@ h3#quote-p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+.youtube-box {
+	padding-top: 5px;
+}
 
 #youtube-iframe {
 	width: 100%;
@@ -146,288 +138,14 @@ h3#quote-p {
 	float: right;
 	font-family: 'Roboto', sans-serif;
 }
+
 @media (max-width: 600px) {
 	.col-xs-12.col-md-8.so-me-buttons 
 	{
 	padding-top: 100px;
-	
+	padding-left: 46px;
 	}
 }
 .social-media-favicon img {
     max-width: 80px;
 }
-
-
-
-
-
-
-
-
-/*
-}
-#HomePageCSS .dog1 {
-	width: inherit;
-	
-}
-
-#HomePageCSS .welcome-box {
-	position: absolute;
-	left: 50%;
-    object-fit: contain;
-	width: 350px;
-	height: 120px;
-    display: inline-block;
-	margin-top: 9%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 140%;
-	background: rgba(255, 254, 254, 0.6);
-    color: black;
-    text-align: justify;
-}
-
-#HomePageCSS .wearewrapper {
-	background-color: #ebebeb;
-}
-
-#HomePageCSS .weare-box {
-	float: left;
-    object-fit: contain;
-    height: 100%; 
-    width: 100%;
-    margin-top: 2%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 140%;
-	background-color: #ebebeb;
-    color: black;
-    text-align: justify;
-}
-
-#HomePageCSS .jarpuppy {
-	float: left;
-    object-fit: contain;
-    height: 100%; 
-    width: 100%;
-}
-
-#HomePageCSS .battlepigwrapper {
-	background-color: #BEE9EA;
-}
-
-#HomePageCSS .pig {
-	float: left;
-    object-fit: contain;
-    height: 100%; 
-    width: 100%;
-}
-
-#HomePageCSS .quote-box {
-	float: left;
-    object-fit: contain;
-	font-family: 'Roboto', sans-serif;
-	font-size: 140%;
-	background-color: #ebebeb;
-    color: black;
-    text-align: justify;
-}
-
-
-#HomePageCSS .ig-box img {
-	height: 100px;
-	width: 100px;
-	display: block;
-	margin-left: 70%;
-}
-
-#HomePageCSS .ig-box {
-	margin-left: 70%;
-}
-
-#HomePageCSS .iframe {
-	border: 20px solid #1E90FF;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #HomePageCSS body, html {
-	font-family: 'Open Sans', sans-serif;
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
-	color: rgb(119, 119, 119);
-	font-weight: 400; */
-/* 	width: 100% !important;
-	height: 100% !important; 
-}*/
-/* tästä ylöspäin on navbariin liittyvät muotoilut */
-/* #HomePageCSS .container-fluid {
-	width: 100%;
-	margin-right: 0%;
-	padding-left: 0%;
-	padding-right: 0%;
-	margin-right: 0%;
-    margin-left: 0%;
-} */
-/* #HomePageCSS .cuteDogArea {
-	padding-top: 70px;
-} */
-/* #HomePageCSS .dog1 {
-	height: 620px; 
-	width: 900px;
-	float: left;
-	object-fit: contain;
-} */
-
-/* #HomePageCSS .welcome {
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-	left: 50%;
-	width: 350px;
-	height: 120px;
-	background: rgba(255, 254, 254, 0.6);
-    display: block;
-    float: right;
-    margin-top: 150px;
-	margin-right: 350px;
-	padding-left: 15px;
-	color: #000000;
-	font-size: 130%;
-	text-align: center;
-} */
-
-/* #HomePageCSS .who-we-are-and-puppy-area {
-	font-family: 'Roboto', sans-serif;
-	font-size: 32px;
-    width: 100%;
-	height: 550px;
-    display: inline-block;
-	background-color: #ebebeb;
-	text-align: center;
-	color: #000000;
-} */
-/* #HomePageCSS .whoWeAre {
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-	font-size: 18px;
-	width: 500px;
-	height: 450px;
-	background: rgba(235, 235, 235, 0.6);
-	float: left;
-	display: block;
-	padding-top: 20px;
-	padding-left: 25px;
-	margin-left: 20px;
-	text-align: center;
-	color: #000000;
-} */
-
-/* #HomePageCSS .fb-box img {				FB
-	height: 100px;
-	width: 100px;
-	display: block;
-	margin-left: 70%;
-} */
-/* #HomePageCSS .fb-box {
-	margin-left: 70%;
-} */
-/* #HomePageCSS .ig-box img {				IG
-	height: 100px;
-	width: 100px;
-	display: block;
-	margin-left: 70%;
-} */
-/* #HomePageCSS .ig-box {
-	margin-left: 70%;
-} */
-
-/* #HomePageCSS .iframe {
-	border: 20px solid #1E90FF !important;
-} */
-/* #HomePageCSS .button {
-	float: right;
-} */
-/* #HomePageCSS .dog-bowl-area {
-	width: 600px;
-	height: 400px;
-	background-color: #ebebeb;
-	float: right;
-	padding-top: 50px; 
-	padding-right: 70px;
-} */
-/* #HomePageCSS .battle-pig-area {
-	font-family: 'Roboto', sans-serif;
-	font-size: 32px;
-    width: 100%;
-	height: 462px;
-	padding-top: 50px; 
-	padding-right: 70px;
-	display: inline-block;
-	background-color: rgb(172, 234, 234);
-	text-align: center;
-	color: #000000; 
-} */
-/* #HomePageCSS .make-a-donation-area {
-	font-family: 'Slabo 27px', serif;
-	position: absolute;
-	font-size: 18px;
-	width: 450px;
-	height: 200px;
-	float: left;
-	display: block;
-	padding-left: 10px;
-	margin-left: 20px;
-	margin-top: 120px;
-	text-align: center;
-	color: #000000;
-	background: rgba(172, 234, 234, 0.6);
-	
-} */
-
-/* #HomePageCSS .piggiebank-area {
-	height: 350px;
-	width: 450px;
-	background-color: rgba(172, 234, 234, 0.6);
-	float: right; 
-} */
-/* #HomePageCSS .Piggie {
-	height: 350px;
-	width: 450px;
-	float: right;
-	padding-top: 20px;
-} */
-
-
-/* #HomePageCSS .placefornothing {
-	font-size: 18px;
-	width: 100%;
-	height:400px;
-	background-color: #ebebeb;
-} */
-
-/* 
-#HomePageCSS html body div#root div.App.container-fluid {
-	margin: 0;
-} */
-
-
-
-/*
-COLORS: 
-lighter greyish blue-green #BEE9EA, 
-brighter turquose #64CAD8, 
-paler turquose #ACEAEA
-FONTS: Roboto (fits everywhere), Slabo (sopii johonkin pieneen yksityiskohtaan tai väliotsikkoon).
-Noto Sans otsikkoon & Noto Serif leipikseen. Mätsäävät fontit. 
-*/

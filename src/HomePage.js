@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './HomePage.css';
 import Doggie from './components/Images/koira1.jpg';
-import Toolbar from './components/Toolbar';
 import Piggie from './components/Images/pig.svg';
-/* import Progress from './components/Images/progressbarmock.jpg'; */
 import Flowerpuppy from './components/Images/dog19.jpg';     
 import Footer from './Footer';
 import facelogo from './components/Images/icons8-facebook.svg';
@@ -15,7 +13,6 @@ export default class HomePage extends Component {
     render() {
             return (
                 <div id="HomePage">    
-                    <Toolbar/>
                     <div className="wrapper">
                         <div className="row welcome">
                             <div className="col-xs-12 col-md-10">
