@@ -5,7 +5,7 @@ import { API, Storage } from "aws-amplify";
 import config from "../config";
 import { s3Upload } from "../libs/awsLib";
 import "./Notes.css";
-import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
+/* import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap"; */
 import Footer from "../Footer"
 import Carousel from "./Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -124,9 +124,8 @@ export default class Notes extends Component {
     console.log("notes.render", this.state);
     return (
       <div className="FirstLayer" id="NotesCss">
-
-        <div class="ProfileCardFirstPart">
-        <div class="ProfilePhotoPart">
+        <div className="ProfileCardFirstPart">
+        <div className="ProfilePhotoPart">
         <img className="DogImage" alt="dog without home" src={this.state.attachmentURL}/>
         </div>
         <div className="IntroductionPart">
