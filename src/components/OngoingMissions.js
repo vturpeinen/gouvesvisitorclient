@@ -3,7 +3,7 @@ import './Styles/Ongoing.css'
 import StarryDog from './Images/dog6.jpg';
 import PitifulDog from './Images/dog37.jpg';
 /* import SadDog from './images/koira.png'; */
-import Footer from '../Footer';
+import Footer from './Footer/Footer';
 
 
 class OngoingMissions extends Component {

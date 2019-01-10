@@ -4,7 +4,7 @@ import { API } from "aws-amplify";
 import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import {MenuItem, SplitButton} from 'react';
-import Footer from '../Footer';
+import Footer from '../components/Footer/Footer';
 
 //import note from "./Notes";
 

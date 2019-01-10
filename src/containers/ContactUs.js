@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Map2 from "../Map2";
 import './ContactUs.css';
-import Footer from '../Footer';
+import Footer from '../components/Footer/Footer';
 import axios from 'axios';
 
 
