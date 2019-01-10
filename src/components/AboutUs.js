@@ -3,7 +3,7 @@ import EaryDog from './Images/dog17.jpg';
 import MrManolis from './Images/mrmanolis.jpg';
 import DobbyEar from './Images/dog27.jpg';
 import './AboutUs.css'
-import Footer from '../Footer';
+import Footer from './Footer/Footer';
 
 
 class AboutUs extends Component {

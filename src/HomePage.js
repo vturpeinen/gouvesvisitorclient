@@ -3,7 +3,7 @@ import './HomePage.css';
 import Doggie from './components/Images/koira1.jpg';
 import Piggie from './components/Images/pig.svg';
 import Flowerpuppy from './components/Images/dog19.jpg';     
-import Footer from './Footer';
+import Footer from './components/Footer/Footer';
 import facelogo from './components/Images/icons8-facebook.svg';
 import insta from './components/Images/instagram.svg';
 

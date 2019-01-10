@@ -6,7 +6,7 @@ import config from "../config";
 import { s3Upload } from "../libs/awsLib";
 import "./Notes.css";
 /* import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap"; */
-import Footer from "../Footer"
+import Footer from "../components/Footer/Footer"
 import Carousel from "./Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
