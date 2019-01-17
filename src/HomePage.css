@@ -1,4 +1,6 @@
-
+.image-size {
+	width: inherit;
+}
 .welcome {
 	position: relative;
 }

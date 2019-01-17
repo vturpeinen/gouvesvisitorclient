@@ -1,4 +1,61 @@
+/* .card {
+  border: 2px solid #46b8da;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2)
+  
+} */
 
+/* .animal {
+  text-align: right;
+} */
+
+/* .introduction-part {
+  padding-top: 40px;
+  width: 320px;
+  padding-bottom: 96px;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  margin-left: -30px;
+}
+
+.introduction-part h1 {
+  padding-left: 40px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 60px;
+}
+.introduction-part p {
+  padding-left: 40px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 25px;
+  
+} */
+
+/* 
+@media TÄMÄ näkymä hyvä
+.card {
+  border: 2px solid #46b8da;
+  align-items: center; tätä ei tarvitse, toimi ilmankin
+} */
+
+/* .content-area {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.carousel-area {
+  background-color: #ebebeb;
+}
+
+.image-size {
+  width: inherit;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  float: right;
+}
+ */
+/* 
 
 #NotesCss .ProfilePhotoPart{
   width: 60%;
@@ -44,4 +101,4 @@
   margin-left: 20%;
   margin-right: 20%;
 
-}
+} */

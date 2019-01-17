@@ -77,6 +77,7 @@ export default class Animals extends Component {
                 key={i}
                 to={`/Males`}
               >
+              
               <div className="ListOneItem" float="left">
               <h4 className="Text" align="center"><b> {male.name.trim().split('\n')[0]} </b></h4>
                 <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + male.attachment} alt="" />

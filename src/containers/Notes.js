@@ -123,33 +123,107 @@ export default class Notes extends Component {
   render() {
     console.log("notes.render", this.state);
     return (
-      <div className="FirstLayer" id="NotesCss">
-        <div className="ProfileCardFirstPart">
-        <div className="ProfilePhotoPart">
-        <img className="DogImage" alt="dog without home" src={this.state.attachmentURL}/>
-        </div>
-        <div className="IntroductionPart">
-        <h1 className="Name"><b>{this.state.name}</b></h1>
-        <h3>{this.state.age}</h3>
-        <h3>{this.state.gender}</h3>
-        <h3>{this.state.size}</h3>
-        <h3>{this.state.color}</h3>
-        </div>
-        </div>
-        <div className="ContentArea">
-        <br/>
-          <p><b>{this.state.content}</b></p>
-        </div>
-        <div className="CarouselArea">
-    <Carousel />
-  </div>
-  <br/>
-        <Footer/>
+      <div className="wrapper">
+        <div className="row introduction">
+          <div className="container introduction-area">
+            <div className="row card">
+              <div className="col-xs-2 col-sm-2 animal"></div>
+                <div className="col-xs-8 col-sm-8" >
+                  <div className="col-xs-12 col-sm-6" >
+                    <img className="image-size" alt="dog without home" src={this.state.attachmentURL}/>
+                  </div>
+                  <div className="col-xs-12 col-sm-6">
+                    <div className="introduction-part">
+                        <h1>{this.state.name}</h1>
+                        <p>Age: {this.state.age}</p>
+                        <p>Gender: {this.state.gender}</p>
+                        <p>Size: {this.state.size}</p>
+                        <p>Color: {this.state.color}</p>
+                      </div>
+                  </div>
+                </div>
+                  <div className="col-xs-2 col-sm-2"></div>
+                  </div>
+                    <div className="content-area">
+                      <div className="col-xs-12 col-sm-12">
+                        <p><b>{this.state.content}</b></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div className="row carousel-area">
+                    <div className="col-xs-12 col-sm-4">
+                      <Carousel />
+                    </div>
+                  </div>
+                    <Footer/>
+            </div>
+              
+              );
+            }
+          }
+    
 
-      </div>
-    
-    );
-  }
-}
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+          render() {
+            console.log("notes.render", this.state);
+            return (
+              <div className="wrapper">
+                <div className="row introduction">
+                  <div className="container introduction-area">
+                    <div className="row card">
+                      <div className="col-xs-2 col-sm-2 animal"></div>
+                        <div className="col-xs-8 col-sm-8" >
+                          <div className="col-xs-12 col-sm-6" >
+                            <img className="image-size" alt="dog without home" src={this.state.attachmentURL}/>
+                          </div>
+                          <div className="col-xs-12 col-sm-6">
+                            <div className="introduction-part">
+                                <h1>{this.state.name}</h1>
+                                <p>Age: {this.state.age}</p>
+                                <p>Gender: {this.state.gender}</p>
+                                <p>Size: {this.state.size}</p>
+                                <p>Color: {this.state.color}</p>
+                              </div>
+                          </div>
+                        </div>
+                          <div className="col-xs-2 col-sm-2"></div>
+                          </div>
+                            <div className="content-area">
+                              <div className="col-xs-12 col-sm-12">
+                                <p><b>{this.state.content}</b></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                          <div className="row carousel-area">
+                            <div className="col-xs-12 col-sm-4">
+                              <Carousel />
+                            </div>
+                          </div>
+                            <Footer/>
+                    </div>
+                      
+                      );
+                    }
+                  }
+      */       
       

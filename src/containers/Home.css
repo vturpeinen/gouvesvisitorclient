@@ -47,19 +47,33 @@
 
   #AnimalsCSS .ListOneItem {
     float: left;
-    width: 30%;
-    height: 30%;
+    width: 30%;                       /* tämä pitää olla selainnäkymässä */
     min-height: 300px !important;
     border: 5mm;
-    border-color: green;
+    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
     transition: 0.3s !important;
     padding: 20px 76px !important;
     display: flex !important;
     flex-direction: column !important;
-    color: #46b8da;
-
+    color: #46b8da; /* rgb(70, 184, 218); */
   }
+
+ /* @media (max-width: 700px ) {
+    #AnimalsCSS .ListOneItem 
+    {
+      float: left;
+      height: 30%;
+      min-height: 300px !important;
+      border: 5mm;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+      transition: 0.3s !important;
+      padding: 20px 76px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      color: #46b8da; 
+    }
+  } */
 
   #AnimalsCSS .lander p {
     color: #999;
