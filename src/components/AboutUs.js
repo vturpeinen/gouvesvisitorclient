@@ -10,7 +10,8 @@ class AboutUs extends Component {
     render() {
         return (
             <div className="wrapper missionwrapper">
-            <br/>
+            
+            {/* CAN'T TOUCH THIS
             <div className="linksToText" >
             <ul className="FastL" id="FastLinks">
             <li><a href="#MissionsAndValues" align="center">Missions And Values</a></li>
@@ -18,7 +19,8 @@ class AboutUs extends Component {
             <li><a href="#Team">The Team</a></li>
             <li><a href="#Shelter">The Shelter</a></li>
                 </ul>
-                </div>
+                </div> 
+                CAN'T TOUCH THIS */}
                 <div className="row missionrow"id="MissionsAndValues"> 
                     <div className="col-xs-12 col-sm-4">
                         <img className="floppy-ear-dog" src={EaryDog} alt="Eary dog"/>

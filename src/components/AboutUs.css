@@ -16,22 +16,18 @@
     width: 90% !important;
 	margin-top: 12%;
 	padding-left: 8%;
-	/* overflow: hidden; */
+
 }
-/* .col-xs-8{
-	background: rgba(255, 254, 254, 0.6);
-	float: right;
-} */
+
 .mission-values-box {
-	float: left;
     object-fit: contain;
-    height: 100% !important; 
-    width: 95% !important;
-	margin-top: 8%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 140%;
-	background: rgba(255, 254, 254, 0.6);
-	color: black;
+    height: 100% !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    background: rgba(255, 254, 254, 0.6);
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .teamwrapper {
 	background-color: #ebebeb;
@@ -45,20 +41,16 @@
 		margin-top: 12%;
 }
 .team-box {
-	float: left;
     object-fit: contain;
-    height: 100% !important; 
-    width: 100% !important;
-	margin-top: 2%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 140%;
-	background-color: #ebebeb;
-	color: black;
+    height: 100% !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    background-color: #ebebeb;
+    color: black;
+	margin-left: 15px;
+	padding-right: 15px;
 }
 
-/* .organizationwrapper {
-	background-color: green;
-} */
 .organization-box {
 	float: left;
     object-fit: contain;
@@ -66,7 +58,6 @@
     width: 100% !important;
 	padding-top: 1%;
 	padding-left: 2%;
-	/* padding-right: 8%; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 140%;
 	background-color: /* #ACEAEA; */ #BEE9EA;

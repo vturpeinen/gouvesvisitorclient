@@ -8,9 +8,17 @@
   text-align: -webkit-center;
 }
 
+.col-xs-12.col-sm-12.card {
+  border: 0px solid #46b8da;
+  box-shadow: 0 1px 19px 0 #46b8da;
+  padding-bottom: 73px;
+  padding-top: 16px;
+}
+
 .col-xs-12.col-sm-3.basic-info h1 {
   font-family: 'Slabo 27px', serif;
   font-size: 65px;
+  padding-left: 20px;
 }
 
 .col-xs-12.col-sm-3.basic-info p {
@@ -21,14 +29,22 @@
 }
 
 .col-xs-12.col-sm-6.animal-img {
-  padding-top: 33px;
+  padding-top: 66px;
 }
 
 .col-xs-12.col-sm-3.content p {
-  line-height: 31px;
   font-family: 'Roboto', serif;
   font-size: 18px;
-  padding-top: 29px;
+  padding-top: 60px;
+  padding-right: 20px;
+  text-align: justify;
+  padding-left: 7px;
+}
+
+.col-xs-12.col-sm-12.card {
+  box-shadow: 0 1px 19px 0 #78e2ec61;
+  padding-bottom: 73px;
+  padding-top: 16px;
 }
 
 .row.carousel {
@@ -39,107 +55,22 @@
 .container carousel-area {
   text-align: -webkit-center;
 }
-/* .card {
-  border: 2px solid #46b8da;
-  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2)
-  
-} */
 
-/* .animal {
-  text-align: right;
-} */
-
-/* .introduction-part {
-  padding-top: 40px;
-  width: 320px;
-  padding-bottom: 96px;
-  border-right: 2px solid red;
-  border-bottom: 2px solid red;
-  border-top: 2px solid red;
-  margin-left: -30px;
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.introduction-part h1 {
-  padding-left: 40px;
-  font-family: 'Slabo 27px', serif;
-  font-size: 60px;
-}
-.introduction-part p {
-  padding-left: 40px;
-  font-family: 'Slabo 27px', serif;
-  font-size: 25px;
-  
-} */
-
-/* 
-@media TÄMÄ näkymä hyvä
-.card {
-  border: 2px solid #46b8da;
-  align-items: center; tätä ei tarvitse, toimi ilmankin
-} */
-
-/* .content-area {
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.carousel-area {
-  background-color: #ebebeb;
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
-
-.image-size {
-  width: inherit;
-  border-left: 2px solid red;
-  border-bottom: 2px solid red;
-  border-top: 2px solid red;
-  float: right;
-}
- */
-/* 
-
-#NotesCss .ProfilePhotoPart{
-  width: 60%;
-  height: 300px;
-  padding: 25px;
-}
-
-
-#NotesCss .ProfileCardFirstPart{
-  margin-top: 70px;
-  width: 60%;
-  height: 400px;
-  border: 25px solid gray;
-  padding: 25px;
-  margin-left: 20%;
-}
-
-#NotesCss .DogImage {
-  position: left !important;
-  width: 50%;
-  height: 50%;
-  max-width: 250px !important;
-  min-width: 250px !important;
-  max-height: 300px !important;
-  min-height: 300px !important;
-  margin-top: -10%;
-  margin-left: -10%;
-  border: 5px solid black;
-}
-#NotesCss .ContentArea {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%
-}
-
-#NotesCss .IntroductionPart {
-  float: right;
-  margin-top: -65%;
-  margin-right: 50px;
-}
-
-#NotesCss .CarouselArea {
-  margin-left: 20%;
-  margin-right: 20%;
-
-} */

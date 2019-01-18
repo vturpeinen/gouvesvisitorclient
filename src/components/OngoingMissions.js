@@ -11,8 +11,9 @@ class OngoingMissions extends Component {
         return (
             <div id="OngoingCSS">
                 <div className="wrapper ongoingwrapper">
-                <br/>
-            <div className="linksToText">
+                
+            {/* CAN'T TOUCH THIS
+             <div className="linksToText">
             <ul>
             <li><a href="#Ongoing" align="center">Ongoing Missions</a></li>
             <li><a href="#NewShelter">Building new shelter</a></li>
@@ -21,7 +22,8 @@ class OngoingMissions extends Component {
             <li id="Ongoing"><a href="#Emergency">Emergency Fund</a></li>
 
                 </ul>
-                </div>
+                </div> 
+                CAN'T TOUCH THIS */}
                 <div className="row ongoingrow" > 
                     <div className="col-xs-12 col-sm-4">
                         <img className="starry-dog" src={StarryDog} alt="Dog with star scarf"/>
