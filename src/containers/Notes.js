@@ -126,43 +126,53 @@ export default class Notes extends Component {
       <div className="wrapper">
         <div className="row introduction">
           <div className="container introduction-area">
-            <div className="row card">
-              <div className="col-xs-2 col-sm-2 animal"></div>
-                <div className="col-xs-8 col-sm-8" >
-                  <div className="col-xs-12 col-sm-6" >
-                    <img className="image-size" alt="dog without home" src={this.state.attachmentURL}/>
-                  </div>
-                  <div className="col-xs-12 col-sm-6">
-                    <div className="introduction-part">
-                        <h1>{this.state.name}</h1>
-                        <p>Age: {this.state.age}</p>
-                        <p>Gender: {this.state.gender}</p>
-                        <p>Size: {this.state.size}</p>
-                        <p>Color: {this.state.color}</p>
-                      </div>
-                  </div>
-                </div>
-                  <div className="col-xs-2 col-sm-2"></div>
-                  </div>
-                    <div className="content-area">
-                      <div className="col-xs-12 col-sm-12">
-                        <p><b>{this.state.content}</b></p>
-                      </div>
-                    </div>
+
+            <div className="col-xs-12 col-sm-12 card" >
+
+              <div className="col-xs-12 col-sm-3 basic-info" >
+                <h1>{this.state.name}</h1>
+                <p>Age: {this.state.age}</p>
+                <p>Gender: {this.state.gender}</p>
+                <p>Size: {this.state.size}</p>
+                <p>Color: {this.state.color}</p>
+              </div>
+        
+              <div className="col-xs-12 col-sm-6 animal-img" >
+                <img className="image-size" alt="dog without home" src={this.state.attachmentURL}/>
+              </div>
+
+                <div className="content-area">
+                  <div className="col-xs-12 col-sm-3 content">
+                    <p>{this.state.content}</p>
                   </div>
                 </div>
-                  <div className="row carousel-area">
-                    <div className="col-xs-12 col-sm-4">
-                      <Carousel />
-                    </div>
-                  </div>
-                    <Footer/>
+
+              </div>
             </div>
-              
-              );
-            }
+          </div>
+
+
+
+
+
+
+                  <div className="row carousel">
+                    <div className="container carousel-area">
+                      <div className="col-xs-12 col-sm-12">
+                        <div className="col-xs-12 col-sm-3 empty1"></div>
+                          <div className="col-xs-12 col-sm-6 carousel-center" >
+                            <Carousel />
+                          </div>
+                        <div className="col-xs-12 col-sm-3 empty2"></div>
+                      </div>
+                    </div>
+                  </div>
+                <Footer/>
+              </div>
+            );
           }
-    
+        }
+
 
 
 
