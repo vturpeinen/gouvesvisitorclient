@@ -1,3 +1,44 @@
+.row.introduction {
+  background-color: rgb(255, 255, 255);
+  padding-top: 37px;
+  padding-bottom: 61px;
+}
+
+.container.introduction-area {
+  text-align: -webkit-center;
+}
+
+.col-xs-12.col-sm-3.basic-info h1 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 65px;
+}
+
+.col-xs-12.col-sm-3.basic-info p {
+  padding-top: 15px;
+  line-height: 18px;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+}
+
+.col-xs-12.col-sm-6.animal-img {
+  padding-top: 33px;
+}
+
+.col-xs-12.col-sm-3.content p {
+  line-height: 31px;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  padding-top: 29px;
+}
+
+.row.carousel {
+  background-color: #ebebeb;
+  padding-top: 57px;
+}
+
+.container carousel-area {
+  text-align: -webkit-center;
+}
 /* .card {
   border: 2px solid #46b8da;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2)
