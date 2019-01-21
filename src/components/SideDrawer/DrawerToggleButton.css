@@ -7,7 +7,7 @@
     background: rgb(255, 255, 255);
 	height: 56px;
     border: none;
-    cursor: crosshair; /* ei toimi */
+    cursor: crosshair;
     /* cursor: pointer; */
     padding: 0;
     box-sizing: border-box; 
@@ -20,6 +20,6 @@
 .toggle-button__line {
     width: 30px;
     height: 2px;
-    background: #608dfd;
+    background: #64cad8;
 
 }
