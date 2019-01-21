@@ -14,8 +14,8 @@ class Map2 extends Component {
                          lng: 25.282903
                      }}
                      style={{
-                         width: "30%",
-                         height: "40%",
+                         width: "100%",
+                         height: "100%",
 
                      }}
 

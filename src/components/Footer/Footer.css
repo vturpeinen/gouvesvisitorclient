@@ -1,6 +1,9 @@
 .footer {
     /* background-color: #b8f0e8; */
     background-color: #BEE9EA;
+    /* position:absolute;
+    bottom:0;
+    width:100%; */
 }
 
 .info-box p {
