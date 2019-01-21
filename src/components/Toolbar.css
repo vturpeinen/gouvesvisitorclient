@@ -12,10 +12,13 @@
 	display: flex;
 	height: 100%;
 	align-items: center;
-	padding: 0 1rem;
+	padding: 0 3rem;
+	cursor: pointer;
 }
+
 .toolbar__logo {
 	margin-left: 1.5rem;
+	
 }
 
 .toolbar__logo a {
@@ -23,6 +26,7 @@
 	text-decoration: none;
 	font-size: 2rem;
 	color: #608dfd;
+	cursor: crosshair;
 }
 .toolbar__logo {
 	display: flex;
@@ -41,23 +45,57 @@
 	margin: 0;
 	padding: 0;
 	display: flex;
+	
 }
 .toolbar_navigation-items li {
-	padding: 0 3.5rem;
+	padding: 0px 7rem;
+	font-size: 18px;
+	padding-top: 10px;
 }
+
+@media (max-width: 1564px) {
+	.toolbar_navigation-items li {
+    padding: 0px 5rem;
+	font-size: 18px;
+	padding-top: 10px;
+	}
+}
+
+@media (max-width: 1367px) {
+	.toolbar_navigation-items li {
+    padding: 0px 3rem;
+	font-size: 18px;
+	padding-top: 10px;
+	}
+}
+
+@media (max-width: 1165px) {
+	.toolbar_navigation-items li {
+    padding: 0px 1rem;
+	font-size: 18px;
+	padding-top: 10px;
+	}
+}
+/* @media (max-width: 965px) {
+	.toolbar_navigation-items li {
+    padding: 0px 0.5rem;
+	font-size: 17px;
+	padding-top: 10px;
+	}
+} */
 
 .toolbar_navigation-items a {
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	cursor: crosshair;
 }
 .toolbar_navigation-items li a {
 	background: rgb(255, 255, 255);
 	display: inline-block;
     color: #000000;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .toolbar_navigation-items li a::after {
@@ -65,28 +103,28 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #608dfd;
-    transition: width .3s;
+    background: #64cad8;
+    transition: width 1.8s;
 }
 .toolbar_navigation-items li a:hover::after {
     width: 100%;
-    transition: width .3s;
+    transition: width .6s;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.toolbar_navigation-items {
 		display: none;
 	}
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1023px) {
 	.toolbar__toggle.button {
 		display: none;
 	}
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
 	.toolbar__toggle-button {
 		display: none;
 	}

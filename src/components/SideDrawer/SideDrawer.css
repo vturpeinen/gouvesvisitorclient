@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; /* works with height: 100% */
+    cursor: pointer;
 }
 
 .side-drawer li {
@@ -29,20 +30,35 @@
 }
 
 .side-drawer a {
-    color:  #608dfd;
+    color: #000000;
     text-decoration: none;
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
+    font-size: 18px;
     text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-    color: #ffc0cb;
+    color: #000000;
+    cursor: crosshair;
 }
 
+.side-drawer a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #64cad8;
+    transition: width 1.8s;
+}
 
-@media (min-width: 769px) {
+.side-drawer a:hover::after {
+    width: 70%;
+    transition: width .6s;
+}
+
+@media (min-width: 1025px) {
     .side-drawer {
         display: none;
     }
