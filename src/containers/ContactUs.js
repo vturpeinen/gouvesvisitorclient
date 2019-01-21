@@ -37,48 +37,47 @@ class ContactUs extends Component {
 
     render(){
         return(
-            <div>
-               
-            <div className="col-sm-4 offset-sm-4">
-                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <div className="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" className="form-control" id="name" />
+                <div>
+                    <div className="container-fluid contact-us-area">
+                        <div className="row">
+                            <div className="col-xs-12 col-sm-4 contact-form" >
+                                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                                    <div className="form-group">
+                                        <label for="name"><h4>Name</h4></label>
+                                        <input type="text" className="form-control" id="name" />
+                                    </div>
+                                    <div className="form-group">
+                                        <label for="exampleInputEmail1"><h4>Email address</h4></label>
+                                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                                    </div>
+                                    <div className="form-group">
+                                        <label for="message"><h4>Message</h4></label>
+                                        <textarea className="form-control" input="true" rows="8" id="message"></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                            <div className="col-xs-12 col-sm-4" >
+                                <div className="map">
+                                    <Map2/>
+                                </div>
+                            </div>
+                       
+                            <div className="col-xs-12 col-sm-4" >
+                                <div className="address">
+                                    <h4>Address</h4><p>Ex American Military Base 70015 Goúrnes, <br/> Iraklion, Greece </p>
+                                    <h4>Phone</h4><p>+306979347428 </p>
+                                    <h4>E-mail</h4><p>gouvesshelter@gmail.com </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
-                    </div>
-                    <div className="form-group">
-                        <label for="message">Message</label>
-                        <textarea className="form-control" input="true" rows="5" id="message"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                </form>
+                <Footer/>  
             </div>
-                  
-                      <div className="Add">
-                          <p>Address <br/>
-                              Ex American Military Base
-                              70015 Goúrnes, Iraklion, Greece </p>
-                          <p>Phone <br/>
-                           +306979347428 </p>
-                          <p>E-mail<br/>
-                              gouvesshelter@gmail.com </p>
-                      </div>
-
-                   <div className="Map">
-                       <Map2/>
-                   </div>
-
-
-                  <div>
-                  <Footer/>
-               </div>
-               </div>
+             
+        
         )
     }
 }
-        
-    
 export default ContactUs;
