@@ -34,11 +34,10 @@ class Help extends Component {
               <div className="container introduction-area">
                 <div className="col-xs-12 col-sm-12 card" >
                   <div className="col-xs-12 col-sm-3 basic-info" >
-                  <h1>Donate to the shelter</h1>
-                    <br/><p>Over 300 homeless and abandoned animals each year find a safe place and needed care with us - <br/>can you help us keep going?
-                    We do not get any help from the government, or from big organizations, <br/>but depend solely on the donations of individuals.
-                    Any donation, big or small, is highly appreciated and there are so many ways you can help, <br/>we are sure you will find one suited for your situation.
-                    We take care of more than 200 dogs and 200 cats, which is a huge task for a group of less than 10 volunteers.</p>
+                  <h2>EVERY PERSON MAKES A ﻿DIFFERENCE!</h2>
+                    <br/><p>We do understand that not everyone is able to donate. You can also help by sharing and spreading the word. If you are able to visit us, you can take one of our dogs for a nice walk or help by grooming dogs that need help with their fur.<br/>
+                        
+                        </p>
                   </div>
 
                   
@@ -68,14 +67,13 @@ class Help extends Component {
                       <div className="col-xs-12 col-sm-6 carousel-center" >
                       <div className="address-box">
                         <h2>Any help you can offer will be very gratefully received!</h2>
-                        <br/><p>Address for donations to be sent to the shelter: 
-                        <br/>GOUVES ANIMAL SHELTER
-                        <br/>c/o Niki Manolaki
-                        <br/>71500 Kokkini-Hani
-                        <br/>CRETE, GREECE<br/>
-                        <br/>We do understand that not everyone is able to donate. You can also help by sharing and spreading the word. If you are able to visit us, you can take one of our dogs for a nice walk or help by grooming dogs that need help with their fur.<br/>
-                        <br/>Thank you so much in advance for any help you can give,
-                        <br/>Gouves Team
+                        <br/><p>Address for donations to be sent to the shelter: <br/>
+                        GOUVES ANIMAL SHELTER
+                        c/o Niki Manolaki
+                        71500 Kokkini-Hani
+                        CRETE, GREECE<br/>
+                        Thank you so much in advance for any help you can give,<br/>
+                        Gouves Team
                         </p>
                     </div>
                       </div>
