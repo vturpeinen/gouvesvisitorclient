@@ -1,17 +1,91 @@
-#HelpCSS .donationwrapper {
-	background: rgba(255, 254, 254, 0.6);
+.row.white {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+  }
+  
+  
+  .content-inside-container {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 1px 30px 0 #78e2ec61;
+    padding-bottom: 47px;
+    padding-top: 14px;
+    margin-top: 60px;
+  }
+
+  .h1, h1 {
+    font-size: 65px;
+    font-family: 'Slabo 27px', serif;
+}
+
+p {
+    margin: 0 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+  .ripuli {
+    
+    text-align: center;
+    
+}
+  
+  .col-xs-12.col-sm-12.no-border {
+    padding-bottom: 50px;
+    
 }
 
 
+
+img.animal-here {
+    width: 100%;
+}
+  
+
+
+
+
+
+
+
+.volunteersrow {
+    background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #HelpCSS .donationwrapper {
+	background: rgba(255, 254, 254, 0.6);
+}
+
 #HelpCSS .super-sad-dog {
-	float: left;
+	
     object-fit: contain;
     height: 165% !important; 
     width: 125% !important;
 	margin-top: 7%;
 }
 #HelpCSS .donate-box {
-    float: left;
     object-fit: contain;
     height: 100% !important; 
     width: 100% !important;
@@ -63,3 +137,4 @@
     color: black;
     text-align: justify;
 }
+ */
