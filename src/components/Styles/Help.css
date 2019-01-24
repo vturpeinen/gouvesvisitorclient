@@ -4,7 +4,7 @@
   }
   
   
-  .content-inside-container {
+  .content-inside {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -19,10 +19,19 @@
     font-family: 'Slabo 27px', serif;
 }
 
+.h2, h2 {
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+
 p {
-    margin: 0 0 10px;
+    margin: 0 0 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
   .ripuli {
@@ -41,22 +50,33 @@ p {
 img.animal-here {
     width: 100%;
 }
-  
 
 
-
-
-
-
-
-.volunteersrow {
-    background-color: #ebebeb;
+.row.linear-gradient-light-grey {
+    /* background-color: #f1f1f133; */
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ebebeb);
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 
-.col-xs-12.col-sm-6.carousel-center {
+
+.col-xs-12.col-sm-2.short-text {
     text-align: center;
+    padding-top: 140px;
 }
+
+.col-xs-12.col-sm-4.animal-img {
+    padding-top: 160px;
+}
+
+
+.col-xs-12.col-sm-2.just-text {
+    text-align: center;
+    /* padding-right: 30px; */
+}
+
+
 
 
 
