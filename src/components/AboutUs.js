@@ -9,7 +9,7 @@ import Footer from './Footer/Footer';
 class AboutUs extends Component {
     render() {
         return (
-            <div className="wrapper missionwrapper">
+            <div className="wrapper">
             
             {/* CAN'T TOUCH THIS
             <div className="linksToText" >
@@ -21,76 +21,61 @@ class AboutUs extends Component {
                 </ul>
                 </div> 
                 CAN'T TOUCH THIS */}
-                <div className="row missionrow"id="MissionsAndValues"> 
-                    <div className="col-xs-12 col-sm-4">
-                        <img className="floppy-ear-dog" src={EaryDog} alt="Eary dog"/>
+            <div className="row white">
+                <div className="col-xs-12 col-sm-12 no-border">
+                    <div className="col-xs-12 col-sm-3 stray-animal" >
+                        <img className="animal-here" alt="dog without home" src={EaryDog}/>
                     </div>
-            {/* <div className="container-fluid"> */} {/* <!-- tällä saa containerista responsiivisen --> */}
-                    <div class="col-xs-12 col-sm-8">
-           
-                        <div className="mission-values-box" >
-                         <h1 >Our Mission and Values</h1>
-                         <br/><p>Our long term mission is to shut down the shelter, when there is no need for it. To live in a society, where animals are treated well and there is no abandoned or neglected pets or strays. Until that goal is reached we will continue to help in any way we can and as most people know, it will take years and a lot of effort even for the smallest thing to change. So for now, these are the things we concentrate on:<br/>
-                         <br/>
-                            <br/><b>1. Making the stray population smaller</b>
-                            <br/> By neutering and educating, we hope to manage the problem better. We negotiate constantly with the local authorities to get neutering programs and talking with local schools, to get the new generation informed.<br/>
-                            <br/><b>2. Making sure the animals that really need it, get help</b>
-                            <br/>We cant afford to take in all the strays, but only the ones who really need it. All of our animals are young, old, sick, injured or could not cope on the streets for another reason. They might be living in dangerous areas, where people shoot and poison dogs daily. These are the ones that need our help most.<br/>
-                            <br/><b>3. Help one dog at a time</b>              {/* <span key={3}> */}
-                            <br  id="Manolis"/>Every dog and cat in our shelter is family to us. We know their personalities and quirks. We love them unconditionally and we never put down an animal, unless its badly injured, terminally sick, suffering, and cant make it. Even after getting better, we do not release them back to the streets, but make sure they find forever homes. We are a not a kill shelter, so we wont put down dogs that are healthy and have the possibility to be rehomed.
-                            {/* </span> */}
-                            <br />
-                            </p>
-                            <br></br>
-                            
-                        </div>
-                    </div>     
+                    <div className="col-xs-12 col-sm-1 empty1"></div>
+                    <div className="col-xs-12 col-sm-7 content-inside">
+                        <h1>Our Mission and Values</h1>
+                        <p>Our long term mission is to shut down the shelter, when there is no need for it. To live in a society, where animals are treated well and there is no abandoned or neglected pets or strays. Until that goal is reached we will continue to help in any way we can and as most people know, it will take years and a lot of effort even for the smallest thing to change. So for now, these are the things we concentrate on:<br/>
+                        <br/><h3>1. Making the stray population smaller</h3>
+                        By neutering and educating, we hope to manage the problem better. We negotiate constantly with the local authorities to get neutering programs and talking with local schools, to get the new generation informed.<br/>
+                        <br/><h3>2. Making sure the animals that really need it, get help</h3>
+                        We cant afford to take in all the strays, but only the ones who really need it. All of our animals are young, old, sick, injured or could not cope on the streets for another reason. They might be living in dangerous areas, where people shoot and poison dogs daily. These are the ones that need our help most.<br/>
+                        <br/><h3>3. Help one dog at a time</h3>
+                        Every dog and cat in our shelter is family to us. We know their personalities and quirks. We love them unconditionally and we never put down an animal, unless its badly injured, terminally sick, suffering, and cant make it. Even after getting better, we do not release them back to the streets, but make sure they find forever homes. We are a not a kill shelter, so we wont put down dogs that are healthy and have the possibility to be rehomed.
+                        <br />
+                        </p>
+                    </div>
+                    <div className="col-xs-12 col-sm-1 empty1"></div>
                 </div>
-                <div className="wrapper teamwrapper" >
-                    <div className="row teamrow"> 
-                        <div className="col-xs-12 col-sm-4">
-                            <img className="mr-manolis" src={MrManolis} alt="Mr Manolis"/>
-                        </div>
-           
-                        <div class="col-xs-12 col-sm-8" >
-                            <div className="team-box">
-                                <h2>Mr. Manolis</h2>
-                                <br/><p>Gouves Animal Shelter was originally created by <b>Mr. Manolis</b>, who is still very much a part of our shelter, in daily life as well as in spirit.<br/> He is the heart and soul of the shelter, who dedicated 10 years of his life to this place. Mr. Manolis used to spend every hour he could in the shelter, while working a full time job at nights and later while in retirement. For 10 years this man was there every day, sick or healthy, holiday or not, hot or cold. And he is one of the reasons, why the shelter has become a refuge place not only to the animals, but to so many people around the world.<br/> 
-                                <br id="Team"/>With age comes limitations and unfortunately Mr. Manolis fell ill and needed surgery to make his condition better. During this time the volunteers made efforts to create better and easier environment for him and the dogs, so the future would be a bit brighter.<br/>
-                                </p>
-                                <br/>
-                            </div>
-                        </div> 
-                    </div>
-                </div> 
-
-                <div className="wrapper organizationwrapper">
-                    <div className="row organizationrow"> 
-                        <div class="col-xs-12">
-                        <div className="organization-box" >
-                            <h2>The Team</h2>
-                            <p><br/>At the moment we only have handful of volunteers, doing what they can, while working full time, having families and helping the ones, that we cant take into the shelter. But what keeps the hands on volunteers going, is the ever growing Gouves family, that includes everyone who supports our work and is willing to give time, effort or money, to this cause. 
-                            <br/>
-                            <br id="Shelter"/>Every year we have the honor of seeing old friendly faces and welcoming new people to the group, so if you have any time in your hands and would like to help, please send us a message! Any amount of help is appreciated, no matter where you live or how much you can do!
+            </div>
+                
+            <div className="row linear-gradient-light-grey">
+                <div className="col-xs-12 col-sm-12 no-border"> 
+                    
+                        <div className="col-xs-12 col-sm-3 just-text">
+                            <h3>Mr. Manolis</h3>
+                            <br/><p>Gouves Animal Shelter was originally created by <b>Mr. Manolis</b>, who is still very much a part of our shelter, in daily life as well as in spirit.<br/> He is the heart and soul of the shelter, who dedicated 10 years of his life to this place. Mr. Manolis used to spend every hour he could in the shelter, while working a full time job at nights and later while in retirement. For 10 years this man was there every day, sick or healthy, holiday or not, hot or cold. And he is one of the reasons, why the shelter has become a refuge place not only to the animals, but to so many people around the world.<br/> 
+                            <br/>With age comes limitations and unfortunately Mr. Manolis fell ill and needed surgery to make his condition better. During this time the volunteers made efforts to create better and easier environment for him and the dogs, so the future would be a bit brighter.<br/>
                             </p>
                             <br/>
                         </div>
-                        </div>     
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
+                        <div className="col-xs-12 col-sm-4 manolis-img" >
+                            <img className="animal-here" alt="Mr Manolis" src={MrManolis}/>
+                        </div>
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
+                        <div class="col-xs-12 col-sm-3" >
+                            <h3>The Team</h3>
+                            <p>At the moment we only have handful of volunteers, doing what they can, while working full time, having families and helping the ones, that we cant take into the shelter. But what keeps the hands on volunteers going, is the ever growing Gouves family, that includes everyone who supports our work and is willing to give time, effort or money, to this cause. 
+                            <br/>
+                            <br/>Every year we have the honor of seeing old friendly faces and welcoming new people to the group, so if you have any time in your hands and would like to help, please send us a message! Any amount of help is appreciated, no matter where you live or how much you can do!
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div className="wrapper shelterwrapper" >
-                    <div className="row shelterrow"> 
-                        <div className="col-xs-12 col-sm-4">
-                            <img className="dobby-ear-dog" src={DobbyEar} alt="Dobby eared dog"/>
-                        </div>
-           
-                        <div class="col-xs-12 col-sm-8">
-                            <div className="team-box" >
-                                <h2>The Shelter</h2>
+               
+                <div className="row linear-gradient-light-grey-to-top"> 
+                    <div className="col-xs-12 col-sm-12 no-border">
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
+                            <div className="col-xs-12 col-sm-6 content-inside">
+                            <h3>The Shelter</h3>
                                 <p>Gouves Animal Shelter is located in Gournes, Crete, Greece. Originally this area was American military base and the Shelter building was a kennel for the military´s dogs. You can still see the name tags, of the previous occupants, on the oldest kennels.
-                                From this small kennel, the shelter grew to the new structure, it is today. We have around 50 kennels inside the shelter and 40 chain places.<br/> 
-                                
+                                From this small kennel, the shelter grew to the new structure, it is today. We have around 50 kennels inside the shelter and 40 chain places.<br/>
                                 <br/><h3>The kennels</h3>
                                 All of our kennels are maintained daily and we try to make them better when the finances are good enough. Every one of our dogs has shade to shield from the summers hot sun and from winters cold showers. The kennels also have a dog house, or a bed, depending on the structure of the kennel.<br/>
                                 <br/><h3>The chain places</h3>
@@ -104,26 +89,15 @@ class AboutUs extends Component {
                                 </p>
                                 <br/>
                             </div>
-                        </div> 
-                    </div>
-                </div>
-
-        {/* kakjfbajfbkjhbfkabflahfbajhdbfsdjbhfsjkdhbvsjdhbvsijkhdbvsjdhbvsjdhvbskdjh */}
-                       {/*  <div className="wrapper partnerwrapper">
-                            <div className="row partnerrow"> 
-                                <div class="col-xs-8">
-                                    <div className="partners-box">
-                                    <h3>Our partners</h3>
-                                    <p>Together we are strong and fortunately the shelter has amazing people, companies and organizations supporting us!
-                                    If you would like to become one of our partners, please contact us!</p>
+                            <div className="col-xs-12 col-sm-1 empty1"></div>
+                            <div className="col-xs-12 col-sm-4 ripuli">
+                                <img className="animal-here" alt="dog without home" src={DobbyEar}/>
                             </div>
-                        </div>  
+                        </div>
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
                     </div>
-                </div> */}
-                 <Footer/>
+                <Footer/>
             </div>
-            
-            
         );
     }
 }
@@ -133,6 +107,33 @@ export default AboutUs;
 
 
 
+                
+                
+                
+                  
+            
+                  
+                    
+                      
+
+
+
+
+
+
+
+
+
+
+{/* <div className="row partnerrow"> 
+    <div class="col-xs-8">
+        <div className="partners-box">
+            <h3>Our partners</h3>
+            <p>Together we are strong and fortunately the shelter has amazing people, companies and organizations supporting us!
+            If you would like to become one of our partners, please contact us!</p>
+        </div>
+    </div>
+</div> */}
 
 
 
