@@ -3,6 +3,7 @@ import Map2 from "../Map2";
 import './ContactUs.css';
 import Footer from '../components/Footer/Footer';
 import axios from 'axios';
+import SnoutDog from '../components/Images/dog29.jpg';
 
 
 
@@ -71,6 +72,36 @@ class ContactUs extends Component {
                                     <h4>E-mail</h4><p>gouvesshelter@gmail.com </p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="row white">
+                        <div className="col-xs-12 col-sm-12">
+                    <div className="col-xs-12 col-sm-4 empty1"></div>
+                        <div className="col-xs-12 col-sm-3">
+                            <img className="animal-here" alt="Mr Manolis" src={SnoutDog}/>
+                        </div>
+                    <div className="col-xs-12 col-sm-3 empty2"></div>
+                </div>
+                <div className="row white">
+                  <div className="col-xs-12 col-sm-12">
+                    <div className="col-xs-12 col-sm-4 empty1"></div>
+                      <div className="col-xs-12 col-sm-6 carousel-center" >
+                        <div className="address-box">
+                            <h2>Any help you can offer will be very gratefully received!</h2>
+                            <br/><p>Address for donations to be sent to the shelter: <br/>
+                            <br/>GOUVES ANIMAL SHELTER
+                            <br/>c/o Niki Manolaki
+                            <br/>71500 Kokkini-Hani
+                            <br/>CRETE, GREECE<br/>
+                            <br/>Thank you so much in advance for any help you can give,<br/>
+                            Gouves Team
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    <div className="col-xs-12 col-sm-3 empty2"></div>
+                </div>
+                
+                
                         </div>
                     </div>
                 <Footer/>  

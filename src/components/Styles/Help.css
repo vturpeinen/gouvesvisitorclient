@@ -17,12 +17,19 @@
   .h1, h1 {
     font-size: 65px;
     font-family: 'Slabo 27px', serif;
+    text-align: center;
 }
 
 .h2, h2 {
     font-size: 34px;
-    text-align: center;
     font-family: 'Slabo 27px', serif;
+    text-align: center;
+}
+
+.h3, h3 {
+    font-size: 33px;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
 }
 
 p {
@@ -35,7 +42,6 @@ p {
 }
 
   .ripuli {
-    
     text-align: center;
     
 }
@@ -47,8 +53,10 @@ p {
 
 
 
-img.animal-here {
+img.animal-here { 
     width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 

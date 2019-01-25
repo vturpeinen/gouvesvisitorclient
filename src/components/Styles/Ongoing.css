@@ -1,4 +1,65 @@
-#OngoingCSS .ongoingwrapper {
+.content-inside-short-text {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 1px 30px 0 #78e2ec61;
+    padding-bottom: 47px;
+    padding-top: 14px;
+    margin-top: 150px;
+  }
+
+  img.animal-here-tall {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #OngoingCSS .ongoingwrapper {
 	background: rgba(255, 254, 254, 0.6);
 }
 #OngoingCSS .starry-dog {
@@ -69,3 +130,4 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+ */
