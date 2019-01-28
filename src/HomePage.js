@@ -12,43 +12,52 @@ import insta from './components/Images/instagram.svg';
 export default class HomePage extends Component {
     render() {
             return (
-                <div id="HomePage">    
-                    <div className="wrapper">
-                        <div className="row welcome">
-                            <div className="col-xs-12 col-md-10">
-                                <img className="dog" src={Doggie} alt="Doggie with flowers"/>
+                <div className="wrapper">
+                    <div className="row white-front-page">
+                        <div className="col-xs-12 col-sm-12 no-border-front-page">
+                            <div className="col-xs-12 col-sm-8 ripuli">
+                                <img className="animal-here" src={Doggie} alt="Doggie with flowers"/>
                             </div>
-                        
-                            <div className="col-xs-12 col-md-4 welcome-box"><h1 id="Header">Welcome</h1><p id="Header-p">protection and adoption of stray animals</p></div>
-                    
-                        </div>     
-                    
-                        <div className="row we">
-                            <div className="col-xs-12 col-sm-6">
-                                <div className="we-are-box">
-                                    <h1 id="Header-2">Who we are</h1>
-                                        <p id="we-p">Gouves Animal Shelter is Greek non-profit organisation, located in the lovely island of Crete.
-                                        We take care of more than 200 dogs and 200 cats every single month, dedicating our time to make sure these animals have a new chance in life. We have neutering and educational programmes to help change the animal welfare laws and attitudes of the people.
-                                        Our dogs find homes all over Europe and even US, so please feel free to check our dogs and cats waiting for homes! 
-                                        If you wish to support us, by donating, or maybe volunteering, we welcome the help! We don´t get any help from the government, so our volunteer work is financed by individuals like you!</p>
-                                </div>
-                            </div>
-                            <div className="col-xs-12 col-sm-6">
-                                <img className="columnimage puppy" src={Flowerpuppy} alt="Puppy with flowers"/>   
+                            
+                            <div className="col-xs-12 col-sm-3 content-inside-short-text">
+                                <h1>Welcome</h1>
+                                <br/><p>protection and adoption of stray animals</p>
+                                <br/>
                             </div>
                         </div>
-                
-                        <div className="row battle-pig">
-                            <div className="col-xs-12 col-sm-4">
-                                <img className="columnimage piggy" src={Piggie} alt="Piggy bank"/>
-                            </div>
-                            <div className="col-xs-12 col-sm-8">
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
+                    </div>
+                    
+                    <div className="row linear-gradient-light-grey">
+                    <div className="col-xs-12 col-sm-12 no-border">
+                  <div className="col-xs-12 col-sm-1 empty1"></div>
+                    <div className="col-xs-12 col-sm-3 content-inside">
+                        <h1>Who we are</h1>
+                        <br/>
+                        <p>Gouves Animal Shelter is Greek non-profit organisation, located in the lovely island of Crete.
+                        We take care of more than 200 dogs and 200 cats every single month, dedicating our time to make sure these animals have a new chance in life. We have neutering and educational programmes to help change the animal welfare laws and attitudes of the people.
+                        Our dogs find homes all over Europe and even US, so please feel free to check our dogs and cats waiting for homes! 
+                        If you wish to support us, by donating, or maybe volunteering, we welcome the help! We don´t get any help from the government, so our volunteer work is financed by individuals like you!</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-3 empty1"></div>
+                      <div className="col-xs-12 col-sm-4" >
+                        <img className="animal-here" alt="dog without home" src={Flowerpuppy}/>
+                      </div>
+                      <div className="col-xs-12 col-sm-1 empty1"></div>
+                    </div>
+                </div>
+                    <div className="row linear-gradient-light-grey-to-top">
+                        <div className="col-xs-12 col-sm-12">
+                            <div className="col-xs-12 col-sm-4 empty1"></div>
+                            <div className="col-xs-12 col-sm-3" >
+                                <img className="animal-here" src={Piggie} alt="Piggy bank"/>
                                 <div className="quote-box" >
-                                    <h2 id="quote-header">You may feel like <br/> a drop in the bucket.</h2> <h3 id="quote-p">But every drop counts! <br/>Make a Donation!</h3>
-                                </div>
+                                <h2>You may feel like <br/> a drop in the bucket.</h2> <h3 >But every drop counts! <br/>Make a Donation!</h3>
                             </div>
-                        </div> 
-
+                            </div>
+                            <div className="col-xs-12 col-sm-4 empty1"></div>
+                        </div>
+                    </div> 
                         <div className="row social-media">
                             <div className="col-xs-12 col-md-4" >
                                 <div className="youtube-box"> 
@@ -75,7 +84,7 @@ export default class HomePage extends Component {
                                 </div>   
                             </div> 
                         </div>
-                    </div>
+                    
                     <Footer/>
                 </div>                    
             );

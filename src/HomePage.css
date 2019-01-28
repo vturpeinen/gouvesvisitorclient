@@ -1,4 +1,16 @@
-.image-size {
+.row.white-front-page {
+background-color: rgb(255, 255, 255);
+}
+
+.col-xs-12 col-sm-12 no-border-front-page {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* .image-size {
 	width: inherit;
 }
 .welcome {
@@ -151,4 +163,4 @@ h3#quote-p {
 }
 .social-media-favicon img {
     max-width: 80px;
-}
+} */
