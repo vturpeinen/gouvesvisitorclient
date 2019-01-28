@@ -4,7 +4,7 @@
 
 .row.linear-gradient-light-grey-to-top {
     /* background-color: #f1f1f133; */
-    background-image: linear-gradient(to top, rgba(255,0,0,0), #ebebeb);
+    background-image: linear-gradient(to top, #ffffff, #ebebeb);
     padding-top: 0px;
     padding-bottom: 0px;
 }

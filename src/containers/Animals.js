@@ -47,7 +47,7 @@ export default class Animals extends Component {
              to={`/Content/${note.typeid}`}
            >
            <div className="ListOneItem" float="left">
-           <h4 className="Text" align="center"><b> {note.name.trim().split('\n')[0]} </b></h4>
+              <h4 className="Text" align="center"><b> {note.name.trim().split('\n')[0]} </b></h4>
              <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + note.attachment} alt="" />
              <div className="container">
                <p className="gender"><b>Gender: {note.gender.trim().split('\n')[0]}</b></p>
@@ -109,8 +109,8 @@ export default class Animals extends Component {
      <div className="notes">
        <PageHeader>Our Animals to Adopt</PageHeader>
        <div className="butSe" margin-left="50%">
-       <button className="buttonSearch"><a href="/Males">Males</a></button>
-       <button className="buttonSearch"><a href="/Females">Females</a></button>
+        <button className="buttonSearch"><a href="/Males">Males</a></button>
+        <button className="buttonSearch"><a href="/Females">Females</a></button>
        </div>
        <ListGroup>
          {!this.state.isLoading && this.renderNotesList(this.state.notes)}
