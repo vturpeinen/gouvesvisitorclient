@@ -8,11 +8,8 @@ import Footer from '../components/Footer/Footer';
 
 export default class Animals extends Component {
 
-  
-  
  constructor(props) {
    super(props);
-
 
    this.state = {
      isLoading: true,
@@ -36,9 +33,8 @@ export default class Animals extends Component {
    return API.get("Content", "/Content");
  }
 
-
  renderNotesList(Content) { // makes a list of all the animals in the db
-   return [{}].concat(Content).map((note, i) =>{
+    return [{}].concat(Content).map((note, i) =>{
         if (Object.keys(note).length === 0) return
         if (Object.keys(note))
         return (
@@ -46,15 +42,25 @@ export default class Animals extends Component {
              key={i}
              to={`/Content/${note.typeid}`}
            >
-           <div className="ListOneItem" float="left">
-              <h4 className="Text" align="center"><b> {note.name.trim().split('\n')[0]} </b></h4>
-             <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + note.attachment} alt="" />
-             <div className="container">
-               <p className="gender"><b>Gender: {note.gender.trim().split('\n')[0]}</b></p>
-               <p className="age"><b>Age: {note.age.trim().split('\n')[0]}</b></p>  
-               <p className="size"><b>Size: {note.size.trim().split('\n')[0]}</b></p>  
-             </div>
-           </div>
+           
+                  <div className="col-xs-12 col-md-4">
+                      <div className="">
+                          <div className="row">
+                              <h1 className="text">{note.name.trim().split()[0]}</h1>
+                          </div>
+                          <div className="row">
+                              <div className="col-xs-12 col-sm-12">
+                                  <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + note.attachment} alt="" />
+                              </div>
+                          </div>
+                          <div className="row basic-info">
+                              <p className="gender"> <b>Gender:</b> {note.gender.trim().split()[0]}</p>
+                              <p className="age"> <b>Age:</b> {note.age.trim().split()[0]}</p>  
+                              <p className="size"> <b>Size:</b> {note.size.trim().split()[0]}</p>
+                          </div>  
+                      </div>
+                  </div>
+                
         </LinkContainer>
    )});
  }
@@ -78,13 +84,11 @@ export default class Animals extends Component {
                 to={`/Males`}
               >
               
-              <div className="ListOneItem" float="left">
-              <h4 className="Text" align="center"><b> {male.name.trim().split('\n')[0]} </b></h4>
+              <div className="ListOneItem">
+              <h4 className="Text"> {male.name.trim().split()[0]}</h4>
                 <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + male.attachment} alt="" />
-                <div className="container">
-                  <p className="gender"><b>{male.gender.trim().split('\n')[0]}</b></p>
-                  <p className="age"><b> {male.age.trim().split('\n')[0]}</b></p>  
-                </div>
+                  <p className="gender">{male.gender.trim().split()[0]}</p>
+                  <p className="age">{male.age.trim().split()[0]}</p>  
               </div>
            </LinkContainer>
     
@@ -95,6 +99,9 @@ export default class Animals extends Component {
       }
 
 
+ /* 
+ EI _EHKÄ_ VAIKUTA MISSÄÄN MIHINKÄÄN?
+ 
  renderLander() {
    return (
      <div className="lander">
@@ -102,16 +109,16 @@ export default class Animals extends Component {
        <p>Adopt an orphan animal =)</p>
      </div>
    );
- }
+ } */
 
  renderNotes() {
    return (
-     <div className="notes">
-       <PageHeader>Our Animals to Adopt</PageHeader>
-       <div className="butSe" margin-left="50%">
-        <button className="buttonSearch"><a href="/Males">Males</a></button>
-        <button className="buttonSearch"><a href="/Females">Females</a></button>
-       </div>
+     <div className="">
+       <h1 className="adopt">Our Animals to Adopt</h1>
+       <div className="buttons-f-m">
+        <button className="button-search"><a href="/Males">Males</a></button>
+        <button className="button-search"><a href="/Females">Females</a></button>
+        </div>
        <ListGroup>
          {!this.state.isLoading && this.renderNotesList(this.state.notes)}
        </ListGroup>
@@ -123,10 +130,11 @@ export default class Animals extends Component {
 
  render() {
    return (
-     <div className="Home" id="AnimalsCSS">
+     <div className="Home">
         {this.renderNotes()}
         {/* {this.malesList(this.state.notes)}  */}
         {/* {this.femalesList(this.state.notes)}  */}
+        <div className="clear-float"></div>
         <Footer/>
      </div>
    );

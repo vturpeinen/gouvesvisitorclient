@@ -40,6 +40,7 @@ class ContactUs extends Component {
         return(
                 <div>
                     <div className="container-fluid contact-us-area">
+                    
                         <div className="row">
                             <div className="col-xs-12 col-sm-4 contact-form" >
                                 <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
@@ -73,31 +74,40 @@ class ContactUs extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row white">
-                        <div className="col-xs-12 col-sm-12">
-                    <div className="col-xs-12 col-sm-4 empty1"></div>
-                        <div className="col-xs-12 col-sm-3">
-                            <img className="animal-here" alt="Mr Manolis" src={SnoutDog}/>
-                        </div>
-                    <div className="col-xs-12 col-sm-3 empty2"></div>
-                </div>
+
+
+
                 <div className="row white">
-                  <div className="col-xs-12 col-sm-12">
-                    <div className="col-xs-12 col-sm-4 empty1"></div>
-                      <div className="col-xs-12 col-sm-6 carousel-center" >
-                        <div className="address-box">
-                            <h2>Any help you can offer will be very gratefully received!</h2>
-                            <br/><p>Address for donations to be sent to the shelter: <br/>
-                            <br/>GOUVES ANIMAL SHELTER
-                            <br/>c/o Niki Manolaki
-                            <br/>71500 Kokkini-Hani
-                            <br/>CRETE, GREECE<br/>
-                            <br/>Thank you so much in advance for any help you can give,<br/>
-                            Gouves Team
-                            </p>
+                    <div className="container">
+                        <div className="col-xs-12 col-sm-12">
+                            <div className="col-xs-12 col-sm-3 empty1"></div>
+                                <div className="col-xs-12 col-sm-6 center" >
+                                    <img className="animal-here" alt="Stray dog" src={SnoutDog}/>  
+                                </div>
+                                <div className="col-xs-12 col-sm-3 empty2"></div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+
+                <div className="row white">
+                    <div className="container">
+                        <div className="col-xs-12 col-sm-12">
+                            <div className="col-xs-12 col-sm-3 empty1"></div>
+                                <div className="col-xs-12 col-sm-6 center" >
+                                <div className="address-box">
+                                    <h2>Any help you can offer will be very gratefully received!</h2>
+                                    <br/><p>Address for donations to be sent to the shelter: <br/>
+                                    <br/>GOUVES ANIMAL SHELTER
+                                    <br/>c/o Niki Manolaki
+                                    <br/>71500 Kokkini-Hani
+                                    <br/>CRETE, GREECE<br/>
+                                    <br/>Thank you so much in advance for any help you can give,<br/>
+                                    Gouves Team
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <div className="col-xs-12 col-sm-3 empty2"></div>
                 </div>
                 

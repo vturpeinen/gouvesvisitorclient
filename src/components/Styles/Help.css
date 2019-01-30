@@ -1,8 +1,8 @@
 .row.white {
     background-color: rgb(255, 255, 255);
-    padding-top: 20px;
+    padding-top: 130px;
+    padding-bottom: 100px;
   }
-  
   
   .content-inside {
     text-align: center;
@@ -46,11 +46,11 @@ p {
     
 }
   
-  .col-xs-12.col-sm-12.no-border {
+  /* .col-xs-12.col-sm-12.no-border {
     padding-bottom: 50px;
     padding-top: 100px;
     
-}
+} */
 
 
 
@@ -61,12 +61,7 @@ img.animal-here {
 }
 
 
-.row.linear-gradient-light-grey {
-    /* background-color: #f1f1f133; */
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ebebeb);
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+
 
 
 

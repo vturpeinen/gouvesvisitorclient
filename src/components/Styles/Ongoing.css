@@ -1,3 +1,9 @@
+.row.linear-gradient-light-grey {
+    /* background-color: #f1f1f133; */
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ebebeb);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
 .content-inside-short-text {
     text-align: center;
     padding-left: 15px;
@@ -12,7 +18,7 @@
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 65px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 

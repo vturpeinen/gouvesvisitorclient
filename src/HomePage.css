@@ -1,11 +1,38 @@
 .row.white-front-page {
 background-color: rgb(255, 255, 255);
+padding-bottom: 50px;
 }
 
-.col-xs-12 col-sm-12 no-border-front-page {
-    padding-bottom: 50px;
+.row.linear-gradient-light-grey-to-top-front-page {
+    background-image: linear-gradient(to top, #ffffff, #ebebeb);
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
+
+.row.linear-gradient-light-grey-front-page {
+    /* background-color: #f1f1f133; */
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ebebeb);
+    padding-top: 130px;
+    padding-bottom: 208px;
+}
+
+.quote-box {
+    padding-left: 80px;
+}
+
+#youtube-iframe {
+    object-fit: cover;
+	width: 100%;
+	height: 500px;
+	min-height: 300px;
+}
+
+.ig-img {
+   
+	max-height: 85px;
+	
+}
 
 
 

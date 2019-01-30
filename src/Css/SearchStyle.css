@@ -1,4 +1,4 @@
-#SearchCSS .Search {
+/* #SearchCSS .Search {
     background-color: #ebebeb;
     margin-top: 10%;
     border: 1px solid #cbcbcb;
@@ -15,7 +15,7 @@
 
 #SearchCSS .Valikko {
 
-    /*border: 5px solid gray;*/
+  
 
     margin-left: 33%;
 }
@@ -31,9 +31,9 @@
 
 
 #SearchCSS .button_search_box {
-    /*width: 130px;*/
+    
     margin-left: 1%;
-    /*border: 5px solid gray;*/
+    
 
 }
 
@@ -59,4 +59,4 @@
     background-color: #5dbcc9;
     border: 2px solid #5dbcc9;
     color: white;
-}
+} */

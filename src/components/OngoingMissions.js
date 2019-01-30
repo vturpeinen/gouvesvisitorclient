@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Styles/Ongoing.css'
 import StarryDog from './Images/dog6.jpg';
-import PitifulDog from './Images/dog37.jpg';
-import DoggyDog from './Images/dog9.jpg';
+import PitifulDog from './Images/dog5.jpg';
+import Dog36 from './Images/dog36.jpg';
 
 /* import SadDog from './images/koira.png'; */
 import Footer from './Footer/Footer';
@@ -85,7 +85,7 @@ class OngoingMissions extends Component {
                         </div> 
                         <div className="col-xs-12 col-sm-1 empty1"></div>
                         <div className="col-xs-12 col-sm-3" >
-                            <img className="animal-here" alt="Mr Manolis" src={DoggyDog}/>
+                            <img className="animal-here" alt="Dog with plaided plaid" src={Dog36}/>
                         </div>
                         <div className="col-xs-12 col-sm-1 empty1"></div>
                         <div class="col-xs-12 col-sm-3" >

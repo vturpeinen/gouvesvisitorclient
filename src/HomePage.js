@@ -46,7 +46,7 @@ export default class HomePage extends Component {
                       <div className="col-xs-12 col-sm-1 empty1"></div>
                     </div>
                 </div>
-                    <div className="row linear-gradient-light-grey-to-top">
+                    <div className="row linear-gradient-light-grey-to-top-front-page">
                         <div className="col-xs-12 col-sm-12">
                             <div className="col-xs-12 col-sm-4 empty1"></div>
                             <div className="col-xs-12 col-sm-3" >
@@ -58,9 +58,16 @@ export default class HomePage extends Component {
                             <div className="col-xs-12 col-sm-4 empty1"></div>
                         </div>
                     </div> 
-                        <div className="row social-media">
-                            <div className="col-xs-12 col-md-4" >
-                                <div className="youtube-box"> 
+                    <div className="row linear-gradient-light-grey-front-page"> 
+                        <div className="col-xs-12 col-sm-12">
+                        <div className="col-xs-12 col-sm-1 empty1"></div>
+                            <div className="col-xs-12 col-sm-2">
+                                <a className="social-media-favicon" href="https://www.facebook.com/gouvesanimalshelter/">
+                                    <span>Follow us on Facebook</span><br></br>
+                                    <img src={facelogo} className="fb-img" alt="fb"/>
+                                    </a>
+                                </div>
+                                <div className="col-xs-12 col-sm-5"> 
                                     <iframe id="youtube-iframe" /* valittaa, että pitäisi olla unique title property, mutta tässähän on?! */
                                         src="https://www.youtube.com/embed/YvhvCBGthE0"
                                         frameBorder="120" 
@@ -68,23 +75,18 @@ export default class HomePage extends Component {
                                         allowFullScreen>
                                     </iframe>
                                 </div>
-                            </div>
-                            <div className="col-xs-12 col-md-8 so-me-buttons">
-                                <div className="col-xs-6" >
-                                    <a className="social-media-favicon float-right" href="https://www.facebook.com/gouvesanimalshelter/">
-                                        <span>Follow us on Facebook</span><br></br>
-                                        <img src={facelogo} className="fb-img" alt="fb"/>
-                                    </a>
-                                </div>
-                                <div className="col-xs-6" >
+                                <div className="col-xs-12 col-sm-1 empty1"></div>
+    
+                                <div className="col-xs-12 col-sm-2">
                                     <a className="social-media-favicon" href="https://www.instagram.com/thegouvesshelter/?hl=en">
                                         <span>Follow us on Instagram</span><br></br>
                                         <img src={insta} className="ig-img" alt="insta"/>
                                     </a>     
-                                </div>   
+                                </div>
+
+                                <div className="col-xs-12 col-sm-2 empty1"></div>   
                             </div> 
                         </div>
-                    
                     <Footer/>
                 </div>                    
             );
