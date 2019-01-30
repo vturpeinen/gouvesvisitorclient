@@ -1,12 +1,27 @@
+.row.white-middle {
+    background-color: #ffffff;
+    padding-top: 120px;
+
+}
+.row.linear-gradient-light-grey-manolis {
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #ebebeb);
+    /* padding-top: 20px; */
+    padding-bottom: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 .col-xs-12.col-sm-4.manolis-img {
-    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
 .row.linear-gradient-light-grey-to-top {
-    /* background-color: #f1f1f133; */
     background-image: linear-gradient(to top, #ffffff, #ebebeb);
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 250px;
 }
 
 

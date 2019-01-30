@@ -1,4 +1,41 @@
-#AnimalsCSS body {
+h1.adopt {
+padding-top: 31px;
+}
+.buttons-f-m {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+
+.Animal {
+  border: 0;
+  width: inherit;
+  height: inherit;
+}
+
+img.Animal {
+  object-fit: cover;
+  width: 100%;
+  height: 570px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+}
+
+.clear-float {
+  clear: both;
+}
+
+p.size {
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+/* #AnimalsCSS body {
   padding-top: 100px;
   padding-left: 10%;
 }
@@ -46,8 +83,7 @@
   }
 
   #AnimalsCSS .ListOneItem {
-    float: left;
-    width: 30%;                       /* tämä pitää olla selainnäkymässä */
+    float: left;   
     min-height: 300px !important;
     border: 5mm;
     
@@ -56,26 +92,10 @@
     padding: 20px 76px !important;
     display: flex !important;
     flex-direction: column !important;
-    color: #46b8da; /* rgb(70, 184, 218); */
+    color: #46b8da;
   }
 
- /* @media (max-width: 700px ) {
-    #AnimalsCSS .ListOneItem 
-    {
-      float: left;
-      height: 30%;
-      min-height: 300px !important;
-      border: 5mm;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
-      transition: 0.3s !important;
-      padding: 20px 76px !important;
-      display: flex !important;
-      flex-direction: column !important;
-      color: #46b8da; 
-    }
-  } */
-
-  #AnimalsCSS .lander p {
+ #AnimalsCSS .lander p {
     color: #999;
   }
   #AnimalsCSS .notes h4 {
@@ -120,3 +140,4 @@
 
 
 
+ */

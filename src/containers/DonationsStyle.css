@@ -1,4 +1,4 @@
-#DonationsCSS .Donations {
+/* #DonationsCSS .Donations {
     padding-top: 200px;
   }
 
@@ -14,7 +14,7 @@
 
 #DonationsCSS .button_box {
     width: 466px;
-    /*border: 5px solid gray;*/
+    
     margin-left: 30%;
 
 }
@@ -44,4 +44,4 @@
 #DonationsCSS .button:hover {
     background-color: #64CAD8;
     color: white;
-}
+} */

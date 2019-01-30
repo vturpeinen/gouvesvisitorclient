@@ -55,11 +55,11 @@ class Help extends Component {
                   <div className="col-xs-12 col-sm-1 empty1"></div>
                 
               </div>
-              <div className="row carousel">
-                <div className="container carousel-area">
+              <div className="row linear-gradient-light-grey-to-top">
+                <div className="container">
                   <div className="col-xs-12 col-sm-12">
                     <div className="col-xs-12 col-sm-3 empty1"></div>
-                      <div className="col-xs-12 col-sm-6 carousel-center" >
+                      <div className="col-xs-12 col-sm-6 center" >
                       <div className="address-box">
                         <h2>Any help you can offer will be very gratefully received!</h2>
                         <br/><p>Address for donations to be sent to the shelter: <br/>

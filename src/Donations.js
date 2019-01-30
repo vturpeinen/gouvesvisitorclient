@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import './Css/DonationsStyle.css';
 import PaypalApp from "./PaypalApp";
 import Logo from './Css/Images/gouves-logo-nega.svg';
@@ -7,7 +7,7 @@ import Logo from './Css/Images/gouves-logo-nega.svg';
 class Donations extends Component {
     render() {
         return (
-            <div className="container-fluid" id="DonationsCSS"> {/* <!-- tällä saa containerista responsiivisen --> */}
+            <div className="container-fluid" id="DonationsCSS">
            <section>
             <div className="Back">
             </div>
@@ -29,11 +29,7 @@ class Donations extends Component {
             <div>
             <h2>DONATE</h2>
                     <PaypalApp/>
-                    {/*<button className="button">DONATE ONE TIME</button>*/}
-                    {/*/!*<NavLink to="/about">ADOPTION ENQUIRY</NavLink>*!/*/}
-
-                    {/*<button className="button">MONTH</button>*/}
-                    {/*/!*<NavLink to="/about">ADOPTION ENQUIRY</NavLink>*!/*/}
+                    
 
                 </div>
             
@@ -52,4 +48,4 @@ class Donations extends Component {
     }
 }
 
-export default Donations;
+export default Donations; */

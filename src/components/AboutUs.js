@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import EaryDog from './Images/dog17.jpg';
 import MrManolis from './Images/mrmanolis.jpg';
 import DobbyEar from './Images/dog27.jpg';
+import PeekDog from './Images/dog33.jpg';
 import './AboutUs.css'
 import Footer from './Footer/Footer';
 
@@ -42,8 +43,20 @@ class AboutUs extends Component {
                     <div className="col-xs-12 col-sm-1 empty1"></div>
                 </div>
             </div>
+
+            <div className="row white-middle">
+                <div className="container">
+                    <div className="col-xs-12 col-sm-12">
+                        <div className="col-xs-12 col-sm-3 empty1"></div>
+                            <div className="col-xs-12 col-sm-6 center" >
+                                <img className="animal-here" alt="Peeking dog" src={PeekDog}/>  
+                            </div>
+                        <div className="col-xs-12 col-sm-3 empty2"></div>
+                    </div>
+                </div>
+            </div>
                 
-            <div className="row linear-gradient-light-grey">
+            <div className="row linear-gradient-light-grey-manolis">
                 <div className="col-xs-12 col-sm-12 no-border"> 
                     
                         <div className="col-xs-12 col-sm-3 just-text">
