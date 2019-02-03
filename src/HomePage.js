@@ -15,7 +15,7 @@ export default class HomePage extends Component {
                 <div className="wrapper">
                     <div className="row white-front-page">
                         <div className="col-xs-12 col-sm-12 no-border-front-page">
-                            <div className="col-xs-12 col-sm-8 ripuli">
+                            <div className="col-xs-12 col-sm-8">
                                 <img className="animal-here" src={Doggie} alt="Doggie with flowers"/>
                             </div>
                             
@@ -68,7 +68,7 @@ export default class HomePage extends Component {
                                     </a>
                                 </div>
                                 <div className="col-xs-12 col-sm-5"> 
-                                    <iframe id="youtube-iframe" /* valittaa, että pitäisi olla unique title property, mutta tässähän on?! */
+                                    <iframe id="youtube-iframe"
                                         src="https://www.youtube.com/embed/YvhvCBGthE0"
                                         frameBorder="120" 
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

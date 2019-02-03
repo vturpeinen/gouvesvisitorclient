@@ -135,16 +135,14 @@ export default class Notes extends Component {
                 <p>Color: {this.state.color}</p>
               </div>
               <div className="col-xs-12 col-sm-6 animal-img" >
-                <img className="image-size" alt="dog without home" src={this.state.attachmentURL}/>
+                <img className="Animal" alt="dog without home" src={this.state.attachmentURL}/>
               </div>
-                <div className="content-area">
-                  <div className="col-xs-12 col-sm-3 content">
-                    <p>{this.state.content}</p>
-                  </div>
-                </div>
+              <div className="col-xs-12 col-sm-3 content content-area">
+                <p>{this.state.content}</p>
               </div>
             </div>
           </div>
+        </div>
           <div className="row carousel">
             <div className="container carousel-area">
               <div className="col-xs-12 col-sm-12">

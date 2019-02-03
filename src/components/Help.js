@@ -23,7 +23,7 @@ class Help extends Component {
                         We take care of more than 200 dogs and 200 cats, which is a huge task for a group of less than 10 volunteers.</p>
                     </div>
                     <div className="col-xs-12 col-sm-1 empty1"></div>
-                      <div className="col-xs-12 col-sm-7 ripuli" >
+                      <div className="col-xs-12 col-sm-7" >
                         <img className="animal-here" alt="dog without home" src={SadDog}/>
                       </div>
                     </div>

@@ -11,7 +11,7 @@
     box-shadow: 0 1px 30px 0 #78e2ec61;
     padding-bottom: 47px;
     padding-top: 14px;
-    /* margin-top: 60px; */
+
   }
 
   .h1, h1 {
@@ -41,28 +41,12 @@ p {
     text-align: center;
 }
 
-  .ripuli {
-    text-align: center;
-    
-}
-  
-  /* .col-xs-12.col-sm-12.no-border {
-    padding-bottom: 50px;
-    padding-top: 100px;
-    
-} */
-
-
 
 img.animal-here { 
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
 }
-
-
-
-
 
 
 .col-xs-12.col-sm-2.short-text {
@@ -77,7 +61,6 @@ img.animal-here {
 
 .col-xs-12.col-sm-2.just-text {
     text-align: center;
-    /* padding-right: 30px; */
 }
 
 

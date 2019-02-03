@@ -1,5 +1,5 @@
 .toolbar {
-	position: fixed; /* ei nyt vittu auta !important pitämään sitä KAIKKIEN päällä  */
+	position: fixed;
 	z-index: 999;
 	top: 0;
 	left: 0;
@@ -76,13 +76,6 @@
 	padding-top: 10px;
 	}
 }
-/* @media (max-width: 965px) {
-	.toolbar_navigation-items li {
-    padding: 0px 0.5rem;
-	font-size: 17px;
-	padding-top: 10px;
-	}
-} */
 
 .toolbar_navigation-items a {
 	color: rgb(0, 0, 0);
@@ -129,96 +122,6 @@
 		display: none;
 	}
 	.toolbar__logo {
-		margin-left: 0; /* tähän marginia joku 100? */
+		margin-left: 0; 
 	}
 }
-
-/* TÄHÄN SAATANA @media
-	niin, että mobiilissa logo siirtyisi navbarin viereen oikealle silloin, kun sidedrawer on auki 
-	TAI sidedrawer avautuisi vasta logon alapuolelta */
-/* 
-#NavigationCSS .navbar-brand {
-	margin-top: -35px;
-	width: 200px; 
-	}
-	#NavigationCSS .navbar-logo {
-	object-fit: cover; 
-	  
-	} 
-	#NavigationCSS  {
-		padding-top: 35px;
-		transition: all 0.8s;
-		padding-right: 240px;
-	}
-	#NavigationCSS .navbar-default {
-		background-color: #fff;
-		border-color: rgba(231, 231, 231, 0);
-		box-shadow: 0 0 10px rgba(0,0,0,0.15)
-	}
-	#NavigationCSS  a.navbar-brand {
-		font-family: 'Raleway', sans-serif;
-		font-size: 44px;
-		font-weight: 700;
-		color: #46b8da;
-		text-transform: uppercase;
-	}
-	#NavigationCSS .navbar-default .navbar-nav > li > a {
-		font-family: 'Lato', sans-serif;
-		text-transform: uppercase;
-		color: #555;
-		font-size: 15px;
-		font-weight: 400;
-		padding: 8px 0px;
-		border-radius: 0;
-		margin: 9px 20px 0 20px;
-	
-		
-	}
-	#NavigationCSS .navbar-default .navbar-nav > li > a:after {
-		display: block;
-		position: absolute;
-		left: 0;
-		bottom: -1px;
-		width: 0;
-		height: 2px;
-		background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-		content: "";
-		transition: width 0.2s;
-		
-	}
-	#NavigationCSS .navbar-default .navbar-nav > li > a:hover:after {
-		width: 100%;
-		
-	}
-	#NavigationCSS .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-		background-color: transparent;
-	}
-	#NavigationCSS .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
-		display: block !important;
-		position: absolute !important;
-		left: 0 !important;
-		bottom: -1px !important;
-		width: 100% !important;
-		height: 2px !important;
-		background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
-		content: "" !important;
-		transition: width 0.2s !important;
-		
-	}
-	#NavigationCSS .navbar-toggle {
-		border-radius: 0;
-	}
-	#NavigationCSS .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: #fff;
-		border-color: #608dfd;
-	}
-	#NavigationCSS .navbar-default .navbar-toggle:hover>.icon-bar {
-		background-color: #608dfd;
-	}
-	#NavigationCSS .search {
-		margin-top: 20px;
-	}
-	#NavigationCSS .fa-search {
-		margin-top:20px; 
-	}
-	  */
