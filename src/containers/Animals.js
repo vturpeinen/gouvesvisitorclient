@@ -42,7 +42,7 @@ export default class Animals extends Component {
              key={i}
              to={`/Content/${note.typeid}`}
            >
-           
+                                {/* COPY HERE */}
                   <div className="col-xs-12 col-md-4">
                       <div className="">
                           <div className="row">
@@ -83,13 +83,33 @@ export default class Animals extends Component {
                 key={i}
                 to={`/Males`}
               >
+              {/* PASTE HERE */}
               
-              <div className="ListOneItem">
+      {/*             <div className="col-xs-12 col-md-4">
+                      <div className="">
+                          <div className="row">
+                              <h1 className="text"> {male.name.trim().split()[0]}</h1>
+                          </div>
+                          <div className="row">
+                              <div className="col-xs-12 col-sm-12">
+                                  <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + male.attachment} alt="" />
+                              </div>
+                          </div>
+                          <div className="row basic-info">
+                              <h4 className="text"> {male.name.trim().split()[0]}</h4>
+                              <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + male.attachment} alt="" />  
+                              <p className="gender">{male.gender.trim().split()[0]}</p>
+                              <p className="age">{male.age.trim().split()[0]}</p>
+                          </div>  
+                      </div>
+                  </div> */}
+                
+              {/* <div className="ListOneItem">
               <h4 className="Text"> {male.name.trim().split()[0]}</h4>
                 <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + male.attachment} alt="" />
                   <p className="gender">{male.gender.trim().split()[0]}</p>
                   <p className="age">{male.age.trim().split()[0]}</p>  
-              </div>
+              </div> */}
            </LinkContainer>
     
           )

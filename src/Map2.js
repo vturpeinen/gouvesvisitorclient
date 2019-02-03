@@ -6,8 +6,6 @@ class Map2 extends Component {
     render() {
         return (
             <div>
-
-
                 <Map google={this.props.google}
                      initialCenter={{
                          lat: 35.329826,
@@ -28,15 +26,7 @@ class Map2 extends Component {
 
                 {/*</InfoWindow>*/}
             </Map>
-
-
-
-
-
             </div>
-
-
-
         );
     }
 }

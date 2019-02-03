@@ -174,13 +174,33 @@ export default class Females extends Component {
               key={i}
               to={`/Content/${female.typeid}`}
             >
-            <div className="ListOneItem">
+            {/* TÄHÄN  */}
+
+            <div className="col-xs-12 col-md-4">
+                      <div className="">
+                          <div className="row">
+                              <h1 className="text"> {female.name.trim().split()[0]}</h1>
+                          </div>
+                          <div className="row">
+                              <div className="col-xs-12 col-sm-12">
+                                  <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + female.attachment} alt="" />
+                              </div>
+                          </div>
+                          <div className="row basic-info">
+                              <p className="gender">{female.gender.trim().split()[0]}</p>
+                              <p className="age"><b>Age:</b> {female.age.trim().split()[0]}</p> 
+                              <p className="size"><b>Size:</b> {female.size.trim().split()[0]}</p>
+                          </div>  
+                      </div>
+                  </div>
+
+            {/* <div className="ListOneItem">
               <h4 className="Text"> {female.name.trim().split()[0]}</h4>
               <img className="Animal" src={"https://gouves-lataukset.s3.eu-central-1.amazonaws.com/public/" + female.attachment} alt="" />
-                {/* <p className="gender"><b>{female.gender.trim().split('\n')[0]}</b></p> */}
+               
                 <p className="age">Age: {female.age.trim().split()[0]}</p>  
                 <p className="age">Size: {female.size.trim().split()[0]}</p>  
-            </div>
+            </div> */}
          </LinkContainer>
         )
       });
@@ -221,8 +241,10 @@ export default class Females extends Component {
               {/* {this.renderNotes()} */}
               {/* {this.malesList(this.state.notes)}  */}
             {this.femalesList(this.state.notes)} 
+            <div className="clear-float"></div>
         <Footer/>
-    </div>
+     </div>
+    
    );
  }
 }

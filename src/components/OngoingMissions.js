@@ -14,7 +14,7 @@ class OngoingMissions extends Component {
                 <div className="wrapper ongoingwrapper">
                     <div className="row white">
                         <div className="col-xs-12 col-sm-12 no-border">
-                            <div className="col-xs-12 col-sm-4 ripuli">
+                            <div className="col-xs-12 col-sm-4">
                                 <img className="animal-here" src={StarryDog} alt="Dog with star scarf"/>
                             </div>
                             <div className="col-xs-12 col-sm-1 empty1"></div>
@@ -58,7 +58,7 @@ class OngoingMissions extends Component {
                                 </p>
                             </div>
                             <div className="col-xs-12 col-sm-1 empty1"></div>
-                                <div className="col-xs-12 col-sm-4 ripuli">
+                                <div className="col-xs-12 col-sm-4">
                                     <img className="animal-here-tall" alt="dog without home" src={PitifulDog}/>
                                 </div>
                             </div> 
@@ -114,21 +114,14 @@ export default OngoingMissions;
 
 
 
-/*                              MUISTA TÄMÄ SAATANA
+/*                              MUISTA TÄMÄ 
                                 
-                            </div>
-                        </div> */
-                   /* 
                             <img className="pitiful-dog" src={PitifulDog} alt="Pitiful dog with adopt me face"/>
-                        </div>
+                            </div>
                             <div class="col-xs-12 col-sm-8">
-                            
                             <br/>
                             </div> 
                             </div>
-
-
-
 
                                     <h2>Want to help neuter the strays?</h2>
                                     <div className="Paypal">
@@ -143,8 +136,6 @@ export default OngoingMissions;
                                     <p>50 € will neuter a male dog  </p>
                                     <p>75€ will neuter a female car</p>
                                     <p>30€ will neuter a male cat</p>
-                                    
-                                    <br/>
                                     </div>
                                 </div>
                      
@@ -165,11 +156,6 @@ export default OngoingMissions;
                             <br/>
                         </div>     
                     </div>
-                    
-
-
-
-
                      */
                     
 

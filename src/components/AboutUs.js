@@ -103,7 +103,7 @@ class AboutUs extends Component {
                                 <br/>
                             </div>
                             <div className="col-xs-12 col-sm-1 empty1"></div>
-                            <div className="col-xs-12 col-sm-4 ripuli">
+                            <div className="col-xs-12 col-sm-4">
                                 <img className="animal-here" alt="dog without home" src={DobbyEar}/>
                             </div>
                         </div>
@@ -124,21 +124,15 @@ export default AboutUs;
                 
                 
                   
-            
-                  
-                    
-                      
+        
 
 
 
 
 
-
-
-
-
-
-{/* <div className="row partnerrow"> 
+{/*  ADD
+    
+    <div className="row partnerrow"> 
     <div class="col-xs-8">
         <div className="partners-box">
             <h3>Our partners</h3>

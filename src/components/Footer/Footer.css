@@ -1,9 +1,9 @@
 .footer {
-    /* background-color: #b8f0e8; */
     background-color: #BEE9EA;
-    /* position:absolute;
-    bottom:0;
-    width:100%; */
+}
+
+.col-xs-12.col-md-4.logo-nega {
+    text-align: center;
 }
 
 .info-box p {
@@ -18,15 +18,14 @@
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         text-align: center;
-        /* text-align: center; */
+        
     }
 }
 
-.VITTU {
+.paypal {
     width: 300px;
 }
 .info-box a {
-    /* color: rgb(10, 151, 120); */
     color: rgb(0, 0, 0);
     font-family: 'Slabo 27px', serif;
     font-size: 16px;
@@ -37,13 +36,7 @@
     text-align: center;
 }
 
-.footer-logo {
-	/* display: flex; */
-	 align-items: center;
-  }
- /*  .footer-logo .img {
-	padding: 7px 14px;
-  } */
+
 
 
 
